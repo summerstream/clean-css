@@ -6,4 +6,5 @@ Thumbs.db
 .idea
 
 package/node_modules/
+node_modules
 *.zip
