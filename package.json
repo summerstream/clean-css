@@ -1,0 +1,11 @@
+{
+  "name": "clean-css",
+  "version": "1.0.0",
+  "description": "remove unused css codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "culnoty",
+  "license": "ISC"
+}

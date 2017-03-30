@@ -1,0 +1,9 @@
+npm-debug.log
+UpgradeLog.htm
+Thumbs.db
+.log
+.DS_Store
+.idea
+
+package/node_modules/
+*.zip
