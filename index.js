@@ -19,6 +19,9 @@ lineReader.on('line', function (line) {
 
 });
 
-// console.log(contents);
+lineReader.on('close',function(){
+  console.log(contents);
 
-// file.fs.writeFileSync(filepath, contents, { encoding: 'utf8' });
+  file.fs.writeFileSync(path.join(__dirname, 'isd2.css'), contents, { encoding: 'utf8' });
+});
+
