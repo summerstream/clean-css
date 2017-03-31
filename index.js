@@ -3,9 +3,9 @@ var file = require('file-system');
 var util = require('utils-extend');
 var fs = require('fs');
 
-const outputFile = 'detail2.css';
-const inputFile = 'detail1.css';
-const unused_cssFile = 'unused_detail.txt';
+const outputFile = 'isd2.css';
+const inputFile = 'isd1.css';
+const unused_cssFile = 'unused_css.txt';
 
 const replacement = '';
 
@@ -40,10 +40,21 @@ lineReader.on('line', function (line) {
     file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
     return;
   }
+
+  //if end with ',' match , then delete it with ','
+  line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
+  var regTemp = new RegExp(line+'[\\s\\b]*,','g');
+  if(regTemp.test(contents)){
+    console.log('end with \',\'  originLine:'+originLine);
+    contents = contents.replace(regTemp, replacement);
+    file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
+    return;
+  }
+  
   // if(line == '.lfTipStrip,'){
   //   console.log();
   // }
-  line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
+  // line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
 
   //,[\r\n]
   
