@@ -1,3 +1,4 @@
+.cui-w-loading
 .popClose:after,
 .carTypeInfo p em,
  .pp-c .pp-title,
