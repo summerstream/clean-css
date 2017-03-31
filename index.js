@@ -13,14 +13,19 @@ var lineReader = require('readline').createInterface({
 
 lineReader.on('line', function (line) {
   line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]');
-  console.log('Line from file:', line);
-  var reg = new RegExp(line + '[\\s]*{[\\r\\n\\w\\s\\b:\\-%"\\\\;]*}','g');
+  // console.log('Line from file:', line);
+  var reg = new RegExp('[\\r\\n]' + line + '[\\s]*{[\\r\\n\\w\\s\\b:\\-%"\\\\;#]*}','g');
+  if(!reg.test(contents)){
+    console.log('RegExp not found! :'+reg);
+    lineReader.close();
+    return;
+  }
   contents = contents.replace(reg, 'hahahahahaha');
-
+  //[\r\n]  [\s]*{[\r\n\w\s\b:\-%"\\;#]*}
 });
 
 lineReader.on('close',function(){
-  console.log(contents);
+  // console.log(contents);
 
   file.fs.writeFileSync(path.join(__dirname, 'isd2.css'), contents, { encoding: 'utf8' });
 });
