@@ -22,15 +22,13 @@ function removeComments(contents){
 var lineReader = require('readline').createInterface({
   input: require('fs').createReadStream(path.join(__dirname, unused_cssFile))
 });
-///\*[^*\/]*\*/
-///\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/
+
 lineReader.on('line', function (line) {
   var originLine = line;
   if( /\.isdbookingnov \.noticeIcon:before/.test(originLine)){
     console.log();
   }
-  // console.log('Line from file:', line);
-  //^[.\w\- \[\='\]\:>]*,
+
   var reg1 = new RegExp('^[.\\w\\- \\[\\=\'\\]\\:>]*,','g');
   if(reg1.test(line)){//end ,
     // console.log('RegExp found! RegExp:'+reg1+'  line:'+line);
@@ -59,12 +57,10 @@ lineReader.on('line', function (line) {
     file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
   }
   // line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
-
-  //,[\r\n]
   
+  //',' lies  before
   var reg = new RegExp(',[\\r\\n]*' + line + '[\\s]*[,{]','g');
-  // console.log(reg);
-  if(reg.test(contents)){//before ,
+  if(reg.test(contents)){
     var regTemp = new RegExp(',[\\r\\n]*' + line + '[\\s]*[,]*','g');
     contents = contents.replace(regTemp, replacement);
     file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
@@ -73,13 +69,10 @@ lineReader.on('line', function (line) {
   var reg2 = new RegExp('[\\r\\n]' + line + '[\\s]*{[\\r\\n\\w\\s\\b:\\-%"\\\\;#\\.\'\\(\\),/*+=\!]*}','g');
   if(!reg2.test(contents)){
     console.log('RegExp not found! :'+reg2 +' originLine:'+originLine);
-    // lineReader.close();
     return;
   }else{
     contents = contents.replace(reg2, replacement);
   }
-  //,[\r\n]$
-  //[\r\n]  [\s]*{[\r\n\w\s\b:\-%"\\;#]*}
 });
 
 lineReader.on('close',function(){
