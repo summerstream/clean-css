@@ -1,11 +1,6 @@
 
 
 @charset "utf-8";
-.car-index .btn-gift:before{
-    background-image: url(../../res/img/car6_6.png);
-    background-repeat: no-repeat;
-    background-size: 275px 175px;
-}
 body {
     -webkit-user-select: none;
     -khtml-user-select: none;
