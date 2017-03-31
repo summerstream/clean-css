@@ -7,6 +7,8 @@ const outputFile = 'detail2.css';
 const inputFile = 'detail1.css';
 const unused_cssFile = 'unused_detail.txt';
 
+const replacement = '';
+
 var contents = file.readFileSync(path.join(__dirname, inputFile),{ encoding: 'utf8' });
 
 // console.log(contents);
@@ -34,8 +36,8 @@ lineReader.on('line', function (line) {
     if(!regTemp.test(contents)){
       console.log('error! regTemp:'+regTemp);
     }
-    contents = contents.replace(regTemp, 'hahahahahaha');
-    // file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
+    contents = contents.replace(regTemp, replacement);
+    file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
     return;
   }
   // if(line == '.lfTipStrip,'){
@@ -49,7 +51,7 @@ lineReader.on('line', function (line) {
   // console.log(reg);
   if(reg.test(contents)){//before ,
     // var regTemp = new RegExp('^'+line,'g');
-    contents = contents.replace(reg, 'hahahahahaha');
+    contents = contents.replace(reg, replacement);
     return;
   }
 
@@ -59,7 +61,7 @@ lineReader.on('line', function (line) {
     // lineReader.close();
     return;
   }else{
-    contents = contents.replace(reg2, 'hahahahahaha');
+    contents = contents.replace(reg2, replacement);
   }
   //,[\r\n]$
   //[\r\n]  [\s]*{[\r\n\w\s\b:\-%"\\;#]*}
