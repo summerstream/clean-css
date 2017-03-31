@@ -1,5 +1,4 @@
- .lfTipStrip,
- .pp-i .icon-car-pos
+.popClose:after,
 .carTypeInfo p em,
  .pp-c .pp-title,
  .pp-ul > li > .ispan:before,

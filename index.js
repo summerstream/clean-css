@@ -6,11 +6,18 @@ var fs = require('fs');
 var contents = file.readFileSync(path.join(__dirname, 'isd1.css'),{ encoding: 'utf8' });
 
 // console.log(contents);
+contents = removeComments(contents);
+// file.fs.writeFileSync(path.join(__dirname, 'isd2.css'), contents, { encoding: 'utf8' });
+
+function removeComments(contents){
+  return contents.replace(/\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+\//g,'');
+}
 
 var lineReader = require('readline').createInterface({
   input: require('fs').createReadStream(path.join(__dirname, 'unused_css.txt'))
 });
-
+///\*[^*\/]*\*/
+///\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/
 lineReader.on('line', function (line) {
   var originLine = line;
   // console.log('Line from file:', line);
@@ -24,7 +31,7 @@ lineReader.on('line', function (line) {
       console.log('error! regTemp:'+regTemp);
     }
     contents = contents.replace(regTemp, 'hahahahahaha');
-    // file.fs.writeFileSync(path.join(__dirname, 'isd2.css'), contents, { encoding: 'utf8' });
+    file.fs.writeFileSync(path.join(__dirname, 'isd2.css'), contents, { encoding: 'utf8' });
     return;
   }
   // if(line == '.lfTipStrip,'){
