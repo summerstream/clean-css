@@ -26,6 +26,9 @@ var lineReader = require('readline').createInterface({
 ///\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/
 lineReader.on('line', function (line) {
   var originLine = line;
+  if( /\.isdbookingnov \.noticeIcon:before/.test(originLine)){
+    console.log();
+  }
   // console.log('Line from file:', line);
   //^[.\w\- \[\='\]\:>]*,
   var reg1 = new RegExp('^[.\\w\\- \\[\\=\'\\]\\:>]*,','g');
@@ -43,12 +46,12 @@ lineReader.on('line', function (line) {
 
   //if end with ',' match , then delete it with ','
   line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
-  var regTemp = new RegExp(line+'[\\s\\b]*,','g');
+  var regTemp = new RegExp('[\\r\\n][\\s\\b]*'+line+'[\\s\\b]*,','g');
   if(regTemp.test(contents)){
     console.log('end with \',\'  originLine:'+originLine);
     contents = contents.replace(regTemp, replacement);
     file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
-    return;
+    // return;
   }
   
   if(originLine == '.car-index .clu li:before'){
@@ -59,15 +62,14 @@ lineReader.on('line', function (line) {
 
   //,[\r\n]
   
-  var reg = new RegExp(',[\\r\\n]*' + line,'g');
+  var reg = new RegExp(',[\\r\\n]*' + line + '[\\s]*[,{]','g');
   // console.log(reg);
   if(reg.test(contents)){//before ,
-    // var regTemp = new RegExp('^'+line,'g');
-    contents = contents.replace(reg, replacement);
+    var regTemp = new RegExp(',[\\r\\n]*' + line + '[\\s]*[,]*','g');
+    contents = contents.replace(regTemp, replacement);
     file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
-    return;
+    // return;
   }
-
   var reg2 = new RegExp('[\\r\\n]' + line + '[\\s]*{[\\r\\n\\w\\s\\b:\\-%"\\\\;#\\.\'\\(\\),/*+=\!]*}','g');
   if(!reg2.test(contents)){
     console.log('RegExp not found! :'+reg2 +' originLine:'+originLine);
