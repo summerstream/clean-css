@@ -1,1 +1,3 @@
 .cui-w-loading, .cui-pro-radius
+
+the rules like above can not be dealed with currently.

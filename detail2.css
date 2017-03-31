@@ -175,17 +175,13 @@ h6 {
     75% {
         opacity: 0
     }
-}
-
-
-.border1px_scale_t:after,
+}
 
 
 
 
 
 .back_ico:after,
-.share_ico:after,
 .collect_ico:after {
     position: absolute;
     width: 15px;
@@ -242,36 +238,21 @@ header i {
 
 .myhelp_product:before,
 .micro_phone:before,
-.limited_sale_pro .discount,
-.motif_list i,
 .icon_seckill,
 .sift_product .base_price,
-.index_search .starting:before,
 .index_search02 .starting:before,
 .bottom_tab_wrap .bottom_tab a:before,
-.travel_leader span:before,
-.package_tour_title .deals,
 .search_mod:before,
-.search_wrap2:before,
-.search_header .search_box2:before,
-.entry_list_b a:before,
-.entry_list_s a:before,
-.line_help::before,
-.advanced_place .ico_location,
-.index_more_search span:before,
-.my_package_tour span:before,
-.brand_service:before,
-.destination_grouptours_search .destination_search_wrap:before,
-.wrap_destionation_search .search_box2:before {
+.search_wrap2:before{
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_index_v6.png?20150512.png);
     background-repeat: no-repeat;
     background-size: 280px auto
 }
-
-.limited_sale_pro .limited_title .deals,
-.travel_addition02 .hd_title,
-.package_tour_title .leave_country,
-.package_tour_title .inland,
+.travel_addition02 .hd_title{
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_index_font.png);
+    background-repeat: no-repeat;
+    background-size: 120px auto
+}
 
 
 
@@ -279,8 +260,12 @@ header i {
 
 
 
-.ent_box .ent_one .ent_pic,
-.ent_box .ent_two .ent_pic,
+.ent_box .ent_one .ent_pic{
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/entrance.png);
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    background-position: 0 4px
+}
 
 
 
@@ -467,12 +452,7 @@ header i {
     .tourism_festival_t {
         font-size: 13px
     }
-}
-
-
-
-
-.line_help::before,
+}
 
 
 
@@ -570,7 +550,21 @@ header i {
     padding: 0 17px 0 5px
 }
 
-.unfold_btn span:after,
+.unfold_btn span:after{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-top: -6px;
+    border-right: #888 solid 1px;
+    border-bottom: #888 solid 1px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
 
 
 
@@ -838,8 +832,7 @@ header i {
 
 
 
-
-.guess_dou:after,
+
 
 
 
@@ -906,9 +899,7 @@ header i {
 .trave_time .trave_name_bg,
 .trave_time .trave_name_more {
     width: 20%
-}
-
-.trave_name .trave_name_bg span,
+}
 
 
 
@@ -930,41 +921,26 @@ header i {
     .trave_box .trave_name_span {
         max-width: 61px
     }
+}
+
+
+
+
+
+
+.my_weidian span{
+    position: absolute;
+    left: 8px;
+    bottom: 2px;
+    display: block;
+    width: 90px;
+    color: #fff;
+    font-size: 20px;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: left;
+    transform-origin: left
 }
-
-
-
-
-
-
-.package_tour_title .deals,
-.package_tour_title .leave_country,
-.package_tour_title .inland,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.six_security dt,
-
-
-
-
-
-
-.my_weidian span,
 
 
 
@@ -1029,37 +1005,7 @@ header i {
 .advanced_search_list .more,
 .advanced_search_list .close {
     color: #999
-}
-
-.advanced_search_list .more b,
-
-
-
-
-
-
-
-
-.advanced_search .selected .closer i:after,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.advanced_date .specific i:after,
+}
 
 
 
@@ -1101,49 +1047,14 @@ header i {
 
 
 
-.adsearch_range_line,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.h_checkbox_checked:before,
+.adsearch_range_line{
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-color: #e5e6e7;
+    margin-bottom: -4px
+}
 
 
 
@@ -1165,12 +1076,7 @@ header i {
 .bulist_browsing_history .tour_list li:last-of-type .tour_content,
 .bulist_browsing_history .tour_list li:last-of-type {
     border: 0 none
-}
-
-
-
-
-.bulist_checked:before,
+}
 
 
 
@@ -1207,17 +1113,9 @@ header i {
 
 
 .content_list .other .dv:after,
-.search_filter_tab li:before,
-.search_error:before,
 .double_column_pop .right_column ul::after,
 .detail_features .dv::after,
-.detail_pop .dv::after,
-.double_column_pop .right_column .double_grade i,
-.grade_content li h3 i,
-.grade_explain .close:after,
-.playgo_list li.down:before,
-.playgo_list li.up:before,
-.playgo_time .custom_time span:after {
+.detail_pop .dv::after{
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_search0703.png?20150625.png);
     background-repeat: no-repeat;
     background-size: 153px auto
@@ -1352,9 +1250,7 @@ header i {
     }
 }
 
-
-
-.animate_select::before,
+
 
 
 
@@ -1362,7 +1258,11 @@ header i {
 
 
 
-.double_column_pop .left_column li span,
+.double_column_pop .left_column li span{
+    color: #999;
+    font-size: 12px;
+    margin-left: 4px
+}
 
 
 
@@ -1380,8 +1280,6 @@ header i {
     padding: 10px 20px
 }
 
-
-.double_column_pop .select_date input,
 .double_column_pop .price_input {
     border: 1px solid #e1e1e1;
     height: 34px;
@@ -1402,8 +1300,17 @@ header i {
     margin-bottom: 10px
 }
 
-.double_column_pop .botton_wrap .ok,
-.double_column_pop .botton_wrap .clear,
+.double_column_pop .botton_wrap .ok{
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #11a4e2;
+    background-color: #fff;
+    width: 80px;
+    border-radius: 3px;
+    text-align: center;
+    color: #0ca3e1;
+    display: inline-block
+}
 
 
 
@@ -1445,14 +1352,16 @@ header i {
 
 
 
+
+
+
+
 
-.requirement_wrap span i:before,
-
-
-
-
-.top_1:before,
-.top_2:before,
+.top_1:before{
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/top_pic.png);
+    background-repeat: no-repeat;
+    background-size: 33px auto
+}
 
 .top_1,
 .top_2,
@@ -1465,13 +1374,19 @@ header i {
     vertical-align: -1px
 }
 
-.top_1:before,
-.top_2:before,
+.top_1:before{
+    content: '';
+    position: absolute;
+    width: 33px;
+    height: 12px;
+    background-position: 0 0;
+    left: 0;
+    right: 0
+}
 
 
 
-
-.new_requirement_wrap span i:before,
+
 
 
 
@@ -1489,70 +1404,16 @@ header i {
 
 .top_search_scorll:after,
 .tour_list .tour_info span:first-child:before,
-.tour_collect:before,
-.tour_contrast:before,
-.tour_list .tour_icon .wifi,
-.tour_list .tour_icon .dv,
-.tour_list .tour_pop:before,
-.tour_list .tour_close:before,
 .price_box .wifi:before,
-.content_list .other .wifi:before,
 .detail_features .wifi:before,
 .detail_pop .wifi:before,
-.detail_characteristic .wifi:before,
 .content_list .other .dv:after,
 .detail_features .dv::after,
-.detail_pop .dv::after,
-.supplier_date .supplier:before,
-.supplier_date .date:before,
-.tour_pop_select:before,
-.youxue_price_box .youxue_group:before {
+.detail_pop .dv::after{
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_list.png?20150529.png);
     background-repeat: no-repeat;
     background-size: 110px auto
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tour_product_expand:before,
+}
 
 
 
@@ -1610,55 +1471,32 @@ header i {
     100% {
         opacity: 1
     }
+}
+
+
+
+
+
+
+
+
+
+.tour_foot_print{
+    width: 57px;
+    height: 57px;
+    line-height: 59px;
+    border: 2px solid #68798c;
+    background: #68798c;
+    color: #fff;
+    position: fixed;
+    z-index: 99;
+    right: 10px;
+    bottom: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    opacity: .8
 }
-
-
-
-
-
-
-
-
-.tour_list .tour_info .tour_ctrip:before,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tour_list .tour_icon .wifi,
-
-
-
-
-
-
-
-
-
-.tour_foot_print,
-
-
-
-
-.tour_collect,
 .tour_contrast {
     padding: 0 12px;
     height: 30px;
@@ -1878,7 +1716,6 @@ header i {
         right: 10px;
         bottom: 6px
     }
-    .tour_list .tour_pop:before,
     .tour_list .tour_close:before {
         position: absolute;
         bottom: 6px;
@@ -1919,7 +1756,6 @@ header i {
         height: 34px;
         margin-bottom: 26px
     }
-    .tour_collect,
     .tour_contrast {
         width: 84px;
         text-align: center;
@@ -1930,7 +1766,6 @@ header i {
     .tour_collect.cur {
         background: #fff
     }
-    .tour_collect:before,
     .tour_contrast:before {
         margin-right: 5px
     }
@@ -2009,9 +1844,7 @@ header i {
 .cm-calendar .cm-calendar-hd:after,
 .cm-calendar .cm-calendar-ft .cm-calendar-quick-nav:after {
     clear: both
-}
-
-.cm-day-list li,
+}
 
 .cm-day-list li:nth-of-type(7n),
 .cm-calendar .cm-calendar-hd li:nth-of-type(7n),
@@ -2036,14 +1869,6 @@ header i {
 .cm-day-list li.cm-item--disabled .cm-field-label {
     color: #ccc
 }
-
-
-
-
-
-
-
-.cm-day-list .icon-calendar-holiday,
 .cm-day-list .icon-calendar-work {
     position: absolute;
     right: 0;
@@ -2112,50 +1937,15 @@ header i {
 .sdp_calendar_wrapper li.on .icon-calendar-holiday,
 .sdp_calendar_wrapper li.on .icon-calendar-work {
     color: #fff
-}
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
 
 
-.filter_result_pop .list_btn_ok,
-
-
-
-
-
-
-
-
-
-
-
-.filter_option_content .selected i:before,
-
-
-
-
-
-.daysbox .label,
-
-.daysbox .label span,
-.input_pop_btn span,
-
-
-
-.daysbox .label p,
-.input_pop_btn span,
+.daysbox .label{
+    margin-bottom: 10px
+}
 
 
 
@@ -2442,63 +2232,10 @@ header i {
             bottom: 170px
         }
     }
-}
-
-
-
-
-
-
-.recent_filter .close i:after,
-
-
-
-
-
-
-.supplier_date .supplier:before,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.level_tit .icon_diamond:after,
-.icon_s_star,
-
-
-.htl_level_tips .level_tit,
+}
 .htl_level_tips .level_line {
     display: table-cell
-}
-
-
-
-
-
-
-
-
-.level_tit em:before,
+}
 
 
 
@@ -2515,29 +2252,7 @@ header i {
 .datecontainer .cui-hd:first-child,
 .datecontainer .cui-roller-btns {
     display: none
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.dp_loading i,
+}
 
 
 
@@ -2823,22 +2538,7 @@ input::-webkit-inner-spin-button,
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.uu_closer>.ico:before,
+}
 
 
 
@@ -2953,41 +2653,35 @@ input::-webkit-inner-spin-button,
 
 
 
-.tag_transparent,
-
-
-
-.tag_bd_green,
-
-
-
-
-
-
-.uu_range_line,
-
-
-
-
-
-
-
-
-
-
-
-
+.tag_transparent{
+    min-width: 45px;
+    height: 30px;
+    line-height: 30px;
+    margin: -2px 5px 0 0;
+    padding: 0 5px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #666;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
 
 
 
 
 
 
-.uu_body .circle-left,
-
-
-
-.uu_body .circle-left:before,
+.uu_range_line{
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-color: #eee;
+    margin-bottom: -4px
+}
 
 
 
@@ -3000,7 +2694,9 @@ input::-webkit-inner-spin-button,
     overflow: hidden
 }
 
-.hint_ico_right,
+.hint_ico_right{
+    border-color: #2bbb37
+}
 
 
 
@@ -3032,33 +2728,20 @@ input::-webkit-inner-spin-button,
 }
 
 .back_ico:after,
-.home_ico:after,
-.route_day span,
-.tel_ico:after,
 .collect_ico:after,
 .search_ico:after,
-.share_ico:after,
 .love_ico:after {
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/back_home.png?20140909.png);
     background-repeat: no-repeat;
     background-size: 64px auto
 }
-
-.route_day span,
-.route_day i,
-.route_day i:after,
 .route_loading i,
 .base_loading i,
-.wireless_failure .no_wifi .wifi_ico,
 .wireless_failure .no_wifi:before,
-.wireless_failure .dial_service .dial_btn:before,
 .fee_txt h3:after,
-.more_info li a:after,
 .banner_box .img_wrap .pic_loading:after,
 .banner_box .pic_fail:after,
 .banner_box .pic_none:after,
-.score_ico li,
-.no_comment:before,
 .visa_list li a:after,
 .man_box:before,
 .child_box:before,
@@ -3108,72 +2791,40 @@ input::-webkit-inner-spin-button,
 .v_passenger_tips:after,
 .list_filter_radio .checkbox_ico:after,
 .detail_features:after,
-.banner_box .collect_ico,
 .price_box .discount,
 .time_icon_01::before,
-.time_icon_02::before,
-.time_icon_03::before,
-.time_icon_04::before,
-.time_icon_05::before,
-.time_icon_06::before,
 .time_icon_07::before,
-.time_icon_08::before,
-.time_icon_09::before,
-.time_icon_10::before,
-.time_icon_11::before,
-.time_icon_12::before,
-.time_icon_13::before,
 .time_icon_14::before,
-.abc_fixed_btn::before,
-.hotel_fixed_btn::before,
 .leader_detail .leader_score i,
 .score_giving i.mobile::before,
 .my_consult h3::before,
 .score_fliter li.current::after,
 .detail_characteristic dd:after,
 .detail_mod_leader .leader_score i,
-.consult_city_choose li.current::after,
-.detail_characteristic .wifi:before,
-.detail_characteristic .dv:before,
 .detail_favorable:after,
 .detail_characteristic:after,
 .detail_more_down .more_back,
-.detail_dr_share dd:after,
-.daren_share_pop .share_close:after,
-.content_list .other .wifi:before,
-.content_list .other .dv:before,
-.detail_mod_dealer .dealer_call span:before,
 .detail_mod_feature .detail_feature_down:after,
-.detail_mod_feature .detail_feature_up:after,
-.banner_box .banner_tips:before,
 .title_down,
-.title_up,
-.route_consume:before,
-.detail_safeguard em:before,
 .visa_agency_down:after,
-.visa_agency_up:after,
-.other_attention .mod_hd:before,
-.ico_exclusive_discount,
-.discount_icon_phone,
-.detail_similar_product .similar_product_supplier i,
-.detail_discount:after,
-.detail_safeguard:after,
-.detail_ticket:after,
+.detail_safeguard:after:after,
 .pop_close,
-.contrast_safeguard:before,
 .detail_travel_num span:before,
-.detail_travel_num em:before,
-.hotel_hint_close,
-.detail_mod_schedule .schedule_slide_tips:after,
-.detail_safeguard_list dt:before,
-.travel_guider .con:after {
+.hotel_hint_close{
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_detail.png?20160422.png);
     background-repeat: no-repeat;
     background-size: 104px auto
 }
 
 
-.title_down,
+.title_down{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    width: 10px;
+    height: 6px;
+    background-position: -55px -665px
+}
 
 
 
@@ -3186,19 +2837,7 @@ input::-webkit-inner-spin-button,
     .book_next_mod {
         width: 100%
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-.comment_result::before,
+}
 
 
 
@@ -3277,8 +2916,7 @@ input::-webkit-inner-spin-button,
 }
 
 
-
-.score_num:after,
+
 
 
 .score_num:after {
@@ -3315,9 +2953,7 @@ input::-webkit-inner-spin-button,
 
 
 
-
-
-.comment_item_item .item_hd,
+
 
 
 
@@ -3372,7 +3008,19 @@ input::-webkit-inner-spin-button,
     padding-right: 30px
 }
 
-.comment_down:after,
+.comment_down:after{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-right: 1px solid #748595;
+    border-bottom: 1px solid #748595;
+    position: absolute;
+    margin: 4px 0 0 6px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
 
 
 
@@ -3447,13 +3095,11 @@ input::-webkit-inner-spin-button,
 
 
 
-
-.order_details li,
 
 
+
 
-.order_details li h3,
-.order_review_list li h3,
+.order_details li h3h3,
 .order_cancel_details_list li h3 {
     font-size: 16px;
     float: left;
@@ -3567,8 +3213,6 @@ input::-webkit-inner-spin-button,
     text-align: center;
     overflow: hidden
 }
-
-.order_review_btn a,
 .order_cancel_btn a {
     line-height: 46px;
     font-size: 20px;
@@ -3595,13 +3239,6 @@ input::-webkit-inner-spin-button,
 .order_cancel_btn .except:nth-of-type(2) {
     float: right
 }
-
-
-
-
-
-
-.box_btn_cannel,
 .box_btn_submit {
     display: inline-block;
     width: 49.9%;
@@ -3706,30 +3343,7 @@ input::-webkit-inner-spin-button,
     .order_pic_list .pic_faild em {
         width: 68px
     }
-}
-
-
-
-
-
-
-.coupons_tit,
-
-.coupons_tit::before,
-.coupons_money,
-
-.coupons_tit::before,
-
-
-
-
-
-
-
-
-
-
-.coupons_share .coupons_share_btn::before,
+}
 
 
 
@@ -3742,13 +3356,7 @@ input::-webkit-inner-spin-button,
     .coupons_share .coupons_share_btn {
         vertical-align: 4px
     }
-}
-
-.submit_result_mod .icon_success,
-.submit_result_mod .status::before,
-.submit_result_mod .status::after,
-.submit_result_mod .tips::before,
-.submit_result_mod .tips::after,
+}
 
 
 
@@ -3757,8 +3365,8 @@ input::-webkit-inner-spin-button,
 
 
 
-
-.submit_result_mod .tips::before,
+
+
 
 
 
@@ -3770,19 +3378,7 @@ input::-webkit-inner-spin-button,
 
 
 
-.consult_clear,
-
-
-
-
-
-
-
-
-
-
-.consult_wrap .consult_product::after,
-.booking_notice_detail .notice_fold p::after,
+.consult_wrap .consult_product::afterp::after,
 .my_consult h3::after,
 .my_consult .consult_wrap .consult_detail::after {
     content: "";
@@ -3818,76 +3414,7 @@ input::-webkit-inner-spin-button,
 .my_consult_wrap,
 .seo_consult_wrap {
     padding-top: 0
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.pic_switch .prev,
+}
 
 
 
@@ -3907,8 +3434,6 @@ input::-webkit-inner-spin-button,
 .v_checkbox_select .animate_select2::after {
     background-color: #fff
 }
-
-.del_icon:before,
 .contrast_icon {
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_contrast.png?20150602.png);
     background-repeat: no-repeat;
@@ -3928,7 +3453,15 @@ input::-webkit-inner-spin-button,
 }
 
 
-.del_icon,
+.del_icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    border-left: 1px solid #e2e2e2;
+    z-index: 2
+}
 
 
 
@@ -3959,8 +3492,6 @@ input::-webkit-inner-spin-button,
 
 
 
-
-.contrast_tb th,
 .contrast_tb td {
     padding: 8px 8px;
     position: relative;
@@ -3994,8 +3525,14 @@ input::-webkit-inner-spin-button,
 
 
 
-.contrast_down:after,
-.contrast_up:after,
+.contrast_down:after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    position: absolute
+}
 
 .contrast_down,
 .contrast_up {
@@ -4003,7 +3540,14 @@ input::-webkit-inner-spin-button,
     position: relative
 }
 
-.contrast_down:after,
+.contrast_down:after{
+    left: 50%;
+    bottom: 4px;
+    margin-left: -4px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
 
 
 
@@ -4014,7 +3558,16 @@ input::-webkit-inner-spin-button,
 
 
 
-.plane_nostop,
+.plane_nostop{
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 4px;
+    color: #fff;
+    background: #5ec149;
+    border-radius: 3px;
+    margin-left: 2px;
+    line-height: 1.4
+}
 
 
 .traffic_td h5,
@@ -4041,10 +3594,6 @@ input::-webkit-inner-spin-button,
 .detail_summary_list dd:nth-of-type(2) {
     padding-right: 0
 }
-
-.bargain_box h3:before,
-.bargain_box h3:after,
-.bargain_box .count_down em:before,
 .bargain_box dl dt:before,
 .bargain_rule dl dt:before {
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_bargain.png?20141112.png);
@@ -4100,7 +3649,11 @@ input::-webkit-inner-spin-button,
 
 
 
-.bargain_people .bargain_num_zero,
+.bargain_people .bargain_num_zero{
+    margin: 0 2px;
+    color: #ff7d00;
+    font-size: 13px
+}
 
 
 
@@ -4112,7 +3665,14 @@ input::-webkit-inner-spin-button,
 
 
 
-.bargain_bottom .bargain_btn,
+.bargain_bottom .bargain_btn{
+    color: #fff;
+    background: #f90;
+    line-height: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px
+}
 
 
 
@@ -4137,10 +3697,7 @@ input::-webkit-inner-spin-button,
 .bargain_box dl .imp,
 .bargain_rule dl .imp {
     color: #f33c3c
-}
-
-.caidan_title:before,
-.caidan_price strong,
+}
 
 
 
@@ -4160,7 +3717,16 @@ input::-webkit-inner-spin-button,
 
 
 
-.caidan_form:before,
+.caidan_form:before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    left: -20px;
+    top: -10px
+}
 
 
 
@@ -4170,7 +3736,6 @@ input::-webkit-inner-spin-button,
 
 
 .header_icon_back,
-.header_icon_list,
 .header_icon_share {
     width: 32px;
     height: 32px;
@@ -4179,8 +3744,16 @@ input::-webkit-inner-spin-button,
 }
 
 
-.header_icon_back:after,
-.header_icon_list:after,
+.header_icon_back:after{
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_detail_header.png);
+    background-repeat: no-repeat;
+    background-size: 60px auto;
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 6px auto
+}
 
 
 
@@ -4212,7 +3785,6 @@ input::-webkit-inner-spin-button,
 .detail_mod_more .more_list li:before,
 .characteristic_info .characteristic_list li:after,
 .detail_pop .pop_list li:after,
-.detail_bottom:after,
 .more_info:before,
 .more_info li:after,
 .detail_dr_share:after,
@@ -4223,7 +3795,6 @@ input::-webkit-inner-spin-button,
 .detail_mod_feature .detail_feature_up:before,
 .detail_recommend_list li:before,
 .detail_mod_recommend .detail_recommend_keyword:before,
-.route_arrange_list .route_hotel_other:after,
 .detail_hotel_info:after,
 .detail_hotel_info:before,
 .comment_item:before,
@@ -4234,20 +3805,16 @@ input::-webkit-inner-spin-button,
 .order_review_item:before,
 .order_review_item:after,
 .order_review_frm_list li.order_tour_feel:before,
-.order_review_list:before,
-.order_review_list li:after,
+.order_review_list:before:after,
 .detail_comment_list:before,
 .detail_header_top:after,
 .detail_header_scroll:after,
-.schedule_hd:nth-child(3):before,
-.booking_notice_detail li:before,
-.booking_notice_detail li:after,
+.schedule_hd:nth-child(3):before:before:after,
 .detail_hotel_list li:before,
 .detail_product_summary li:after,
 .detail_safeguard:before,
 .order_review_mod:before,
-.order_review_mod:after,
-.detail_ticket:before {
+.order_review_mod:after:before {
     content: "";
     position: absolute;
     left: 0;
@@ -4274,11 +3841,9 @@ input::-webkit-inner-spin-button,
 .comment_item:after,
 .order_details:after,
 .order_review_frm_list:after,
-.order_review_item:after,
-.order_review_list li:after,
+.order_review_item:after:after,
 .detail_header_top:after,
-.detail_header_scroll:after,
-.booking_notice_detail li:after,
+.detail_header_scroll:after:after,
 .detail_hotel_list li:before,
 .order_review_mod:after {
     top: auto;
@@ -4287,21 +3852,12 @@ input::-webkit-inner-spin-button,
     -ms-transform-origin: 0 bottom;
     transform-origin: 0 bottom
 }
-
-.detail_mod_schedule .schedule_list span:before,
 .detail_characteristic i:after,
 .detail_mod_recommend .detail_recommend_label span:after,
-.detail_mod_recommend .detail_recommend_keyword span:after,
 .detail_hotel_mod:after,
 .comment_textarea:after,
 .order_review_item .comment_textarea:after,
-.order_pic_list span:after,
-.abc_schedule dt:after,
-.detail_label i:after,
-.detail_product_summary .detail_summary_icon:after,
-.detail_type_icon:after,
 .discount_icon_a:after,
-.detail_start li:after,
 .travel_guider .icon_guider:after {
     content: "";
     width: 200%;
@@ -4412,27 +3968,31 @@ input::-webkit-inner-spin-button,
 .detail_mod_recommend .detail_recommend_label span:after {
     border-radius: 4px;
     border-color: #ccc
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_safeguard{
+    margin: 0 -15px;
+    padding: 9px 40px 9px 15px;
+    color: #666;
+    line-height: 17px;
+    font-size: 12px;
+    position: relative
 }
-
-.detail_characteristic .wifi:before,
-
-
-
-
-
-
-
-
-
-
-
 
 
-.detail_safeguard,
-
-
-.detail_safeguard:after,
-.detail_ticket:after {
+.detail_safeguard:after:after {
     content: "";
     overflow: hidden;
     width: 8px;
@@ -4451,67 +4011,23 @@ input::-webkit-inner-spin-button,
 
 
 
-.price_new,
+.price_new{
+    font-size: 18px;
+    color: #ff7d13;
+    display: inline-block;
+    margin-right: 5px
+}
 
-.price_new dfn,
-.price_sale dfn {
+.price_new dfndfn {
     font-size: 12px
 }
 
-.price_new em,
-.price_sale em {
+.price_new emem {
     font-weight: normal;
     font-size: 12px;
     color: #666;
     margin-left: 2px
-}
-
-.price_new_save,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.detail_discount .discount_icon_a,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.detail_adviser .a_adviser,
-
-
-
-.detai_mask_bottom .detail_bottom_close:after,
+}
 
 
 
@@ -4597,8 +4113,7 @@ input::-webkit-inner-spin-button,
 
 
 
-
-.daren_share_pop dd,
+
 
 
 
@@ -4719,35 +4234,15 @@ input::-webkit-inner-spin-button,
     margin-top: 8px
 }
 
-.detail_mod_feature .detail_feature_down:after,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.travel_guider .guider_name,
+.detail_mod_feature .detail_feature_down:after{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: -3px;
+    background-position: -70px -615px;
+    margin-left: 5px
+}
 
 
 
@@ -4855,18 +4350,7 @@ input::-webkit-inner-spin-button,
 
 
 .time_icon_01::before,
-.time_icon_02::before,
-.time_icon_03::before,
-.time_icon_04::before,
-.time_icon_05::before,
-.time_icon_06::before,
 .time_icon_07::before,
-.time_icon_08::before,
-.time_icon_09::before,
-.time_icon_10::before,
-.time_icon_11::before,
-.time_icon_12::before,
-.time_icon_13::before,
 .time_icon_14::before {
     content: "";
     position: absolute;
@@ -5012,7 +4496,19 @@ input::-webkit-inner-spin-button,
     color: #009fde
 }
 
-.abc_down:after,
+.abc_down:after{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #009fde;
+    border-bottom: 2px solid #009fde;
+    margin-left: 5px;
+    vertical-align: 2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
 
 
 
@@ -5062,12 +4558,16 @@ input::-webkit-inner-spin-button,
 
 
 
-.detail_plane_nostop,
-
-
-
-
-.notice_box .abc_cost_tab .current span:after,
+.detail_plane_nostop{
+    color: #fff;
+    font-size: 10px;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 3px;
+    background: #5ec149;
+    margin-left: 3px;
+    vertical-align: middle
+}
 .notice_box .abc_cost_tab .current span:before {
     content: "";
     position: absolute;
@@ -5140,23 +4640,6 @@ input::-webkit-inner-spin-button,
     top: 8px;
     border-radius: 50%
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.detail_travel_num span,
 .detail_travel_num em {
     position: relative;
     padding-left: 18px;
@@ -5164,14 +4647,15 @@ input::-webkit-inner-spin-button,
 }
 
 
-.detail_travel_num span:before,
-
-
-
-
-
-
-.detail_mod_hz .mod_hd span:before,
+.detail_travel_num span:before{
+    content: "";
+    width: 14px;
+    height: 12px;
+    background-position: -47px -735px;
+    position: absolute;
+    left: 0;
+    top: 1px
+}
 
 
 
@@ -5196,10 +4680,7 @@ input::-webkit-inner-spin-button,
     .six_slogo:before {
         left: 0
     }
-}
-
-.detail_bottom .detail_collect:before,
-.detail_bottom .detail_contrast:before,
+}
 
 
 
@@ -5218,87 +4699,9 @@ input::-webkit-inner-spin-button,
     font-size: 10px;
     color: #666
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.mask_img_loop .serial_number .close:before,
-
-
-
-
-
-
-
-
-
-
-
-
-
-.mask_detail_line h3,
 .mask_detail_line h3 em {
     font: normal 14px/18px Arial, "Lucida Grande", Verdana, "Microsoft YaHei", hei
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.detail_hotel_facility dd:before,
-.hotel_grade h3:before,
 .hotel_traffic h3:before {
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_detail_hotel.png?20150605.png);
     background-repeat: no-repeat;
@@ -5310,10 +4713,22 @@ input::-webkit-inner-spin-button,
 
 
 
-.detail_hotel_info,
+.detail_hotel_info{
+    position: relative;
+    z-index: 3;
+    margin-top: -50px;
+    background: #fff;
+    padding: 0 15px 10px;
+    overflow: hidden
+}
 
 
-.detail_hotel_name,
+.detail_hotel_name{
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 7px 0 4px
+}
 
 
 
@@ -5351,25 +4766,25 @@ input::-webkit-inner-spin-button,
 .detail_hotel_list .hotel_grade,
 .detail_hotel_list .hotel_traffic {
     padding-left: 26px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_hotel_list .hotel_detail{
+    color: #333
 }
-
-.hotel_grade h3:before,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.detail_hotel_list .hotel_detail,
 
 
 
@@ -5392,7 +4807,10 @@ input::-webkit-inner-spin-button,
 
 
 
-.recommend_detail_box li,
+.recommend_detail_box li{
+    background-color: #fff;
+    position: relative
+}
 
 .recommend_detail_box li:before,
 .recommend_detail_box .recommend_fold:before {
@@ -5411,13 +4829,24 @@ input::-webkit-inner-spin-button,
     transform-origin: 0 top
 }
 
-.recommend_detail_box .recommend_item,
+.recommend_detail_box .recommend_item{
+    line-height: 16px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 15px 0 0;
+    margin-left: 15px
+}
 
 
 
 
 
-.recommend_detail_box .recommend_fold,
+.recommend_detail_box .recommend_fold{
+    margin-left: 15px;
+    position: relative;
+    color: #666;
+    padding: 12px 36px 12px 0
+}
 
 
 
@@ -5465,18 +4894,20 @@ input::-webkit-inner-spin-button,
 
 
 
-.notice_renege table td,
+.notice_renege table td{
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    padding: 3px 5px
+}
 
 
-.notice_renege table td:first-child,
-.notice_renege table th:first-child {
+.notice_renege table td:first-child:first-child {
     width: 108px;
     text-align: left;
     padding-left: 30px
 }
 
 .visa_mod_box:before,
-.visa_mod_box:after,
 .visa_arrows_list li:before {
     content: "";
     position: absolute;
@@ -5491,17 +4922,7 @@ input::-webkit-inner-spin-button,
     -webkit-transform-origin: 0 top;
     -ms-transform-origin: 0 top;
     transform-origin: 0 top
-}
-
-
-
-
-
-
-
-
-
-.visa_detail_box h3:before,
+}
 
 
 
@@ -5529,70 +4950,15 @@ input::-webkit-inner-spin-button,
     border-top: 1px dashed #ccc
 }
 
-.visa_agency_down:after,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.btn_last,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.content_list .other .wifi:before,
+.visa_agency_down:after{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: -3px;
+    background-position: -70px -615px;
+    margin-left: 5px
+}
 
 
 
@@ -5666,9 +5032,7 @@ input::-webkit-inner-spin-button,
     }
 }
 
-
-
-.animate_select::before,
+
 
 
 .blue_checkbox::before,
@@ -5727,8 +5091,6 @@ input::-webkit-inner-spin-button,
 
 
 
-
-.ship_route_table th,
 .ship_route_table td {
     padding: 5px 5px 5px 0;
     text-align: left;
@@ -5746,147 +5108,16 @@ input::-webkit-inner-spin-button,
     margin-top: -5px;
     padding-bottom: 10px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.comment_product_list .comment_product_icon .wifi,
-.comment_product_list .comment_product_icon .dv,
 .comment_product_list .comment_product_collect:before {
     background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_list.png?20150529.png);
     background-repeat: no-repeat;
     background-size: 110px auto
-}
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.comment_product_list .comment_product_icon .wifi,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.youxue_tour_bq_bg,
-
-
-
-
-
-
-.banner_box .img_wrap img,
+
 
 
 
@@ -5935,24 +5166,17 @@ input::-webkit-inner-spin-button,
 
 
 @media screen and (-webkit-min-device-pixel-ratio:2) {
-    .tour_ctiys_two span,
-    .tour_wei,
-    .tour_citys li span,
     .tour_slogan {
         border-width: 0;
         border-color: transparent;
         -webkit-border-image: url(https://pic.c-ctrip.com/h5/visa/border_half.png) 2 stretch
     }
-    .tour_ctiys_two span,
     .tour_wei {
         border-right-width: 1px
     }
-    .tour_citys li span,
     .tour_slogan {
         border-top-width: 1px
     }
-    .study_tour_list li,
-    .study_tour_list li:nth-child(even):before,
     .tour_citys li:nth-child(even) span:before {
         border-width: 0;
         -webkit-border-image: url(https://pic.c-ctrip.com/h5/visa/border_half.png) 2 stretch;
@@ -6203,11 +5427,22 @@ input::-webkit-inner-spin-button,
     margin-top: -7px
 }
 
-.cash_pay,
+.cash_pay{
+    padding: 0 2px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    font-size: 10px;
+    line-height: 15px;
+    height: 15px;
+    color: #fff;
+    vertical-align: middle;
+    top: -1px;
+    background: #ff7d13
+}
 
 
-.cash_pay dfn,
-.cash_vr dfn {
+.cash_pay dfndfn {
     margin: 0 2px
 }
 
@@ -6222,9 +5457,7 @@ input::-webkit-inner-spin-button,
 
 
 
-
-
-.detail_mob_faq_mask .online_faq,
+
 
 .detail_mob_faq_mask .online_faq:after,
 .detail_mob_faq_mask .contac_mob:after {
@@ -6241,9 +5474,7 @@ input::-webkit-inner-spin-button,
     height: 200%;
     border-radius: 10px;
     box-sizing: border-box
-}
-
-.detail_mob_faq_mask .online_faq:before,
+}
 
 
 
@@ -6251,7 +5482,6 @@ input::-webkit-inner-spin-button,
     .detail_mob_faq_mask .detail_mask_bd {
         width: 240px
     }
-    .detail_mob_faq_mask .online_faq,
     .detail_mob_faq_mask .contac_mob {
         width: 110px
     }

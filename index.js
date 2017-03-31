@@ -3,9 +3,9 @@ var file = require('file-system');
 var util = require('utils-extend');
 var fs = require('fs');
 
-const outputFile = 'isd2.css';
-const inputFile = 'isd1.css';
-const unused_cssFile = 'unused_css.txt';
+const outputFile = 'detail2.css';
+const inputFile = 'detail1.css';
+const unused_cssFile = 'unused_detail.txt';
 
 const replacement = '';
 
