@@ -3,7 +3,11 @@ var file = require('file-system');
 var util = require('utils-extend');
 var fs = require('fs');
 
-var contents = file.readFileSync(path.join(__dirname, 'isd1.css'),{ encoding: 'utf8' });
+const outputFile = 'detail2.css';
+const inputFile = 'detail1.css';
+const unused_cssFile = 'unused_detail.txt';
+
+var contents = file.readFileSync(path.join(__dirname, inputFile),{ encoding: 'utf8' });
 
 // console.log(contents);
 contents = removeComments(contents);
@@ -14,7 +18,7 @@ function removeComments(contents){
 }
 
 var lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream(path.join(__dirname, 'unused_css.txt'))
+  input: require('fs').createReadStream(path.join(__dirname, unused_cssFile))
 });
 ///\*[^*\/]*\*/
 ///\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/
@@ -31,7 +35,7 @@ lineReader.on('line', function (line) {
       console.log('error! regTemp:'+regTemp);
     }
     contents = contents.replace(regTemp, 'hahahahahaha');
-    file.fs.writeFileSync(path.join(__dirname, 'isd2.css'), contents, { encoding: 'utf8' });
+    // file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
     return;
   }
   // if(line == '.lfTipStrip,'){
@@ -64,6 +68,6 @@ lineReader.on('line', function (line) {
 lineReader.on('close',function(){
   console.log('closed');
 
-  file.fs.writeFileSync(path.join(__dirname, 'isd2.css'), contents, { encoding: 'utf8' });
+  file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
 });
 

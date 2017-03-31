@@ -1,0 +1,6260 @@
+@charset "utf-8";hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, "Lucida Grande", Verdana, "Microsoft YaHei", hei
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.route_loading i,
+.base_loading i {
+    width: 26px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -1px -209px;
+    margin-right: 10px;
+    -webkit-animation: backward_loading 1.2s linear infinite;
+    -moz-animation: backward_loading 1.2s linear infinite;
+    -ms-animation: backward_loading 1.2s linear infinite;
+    animation: backward_loading 1.2s linear infinite
+}
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes backward_loading {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotate(-360deg)
+    }
+}
+
+@-moz-keyframes backward_loading {
+    0% {
+        opacity: 1;
+        -moz-transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: rotate(-360deg)
+    }
+}
+
+@-ms-keyframes backward_loading {
+    0% {
+        opacity: 1;
+        -ms-transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: rotate(-360deg)
+    }
+}
+
+@keyframes backward_loading {
+    0% {
+        opacity: 1;
+        transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-360deg)
+    }
+}
+
+@-webkit-keyframes forward_loading {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes forward_loading {
+    0% {
+        opacity: 1;
+        -moz-transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-ms-keyframes forward_loading {
+    0% {
+        opacity: 1;
+        -ms-transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: rotate(360deg)
+    }
+}
+
+@keyframes forward_loading {
+    0% {
+        opacity: 1;
+        transform: rotate(0)
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(360deg)
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes flash {
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+
+@keyframes flash {
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+hahahahahaha
+
+.border1px_scale_t:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.back_ico:after,
+.share_ico:after,
+.collect_ico:after {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -10px;
+    content: "";
+    background-position: 1px -1px
+}
+
+.home_ico,
+.share_ico,
+.collect_ico {
+    float: right;
+    width: 45px;
+    height: 44px;
+    position: relative;
+    z-index: 1
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+header .title_more p,
+header .title_more span {
+    display: block;
+    font-size: 14px;
+    line-height: 18px
+}
+
+header .right_btn,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+header,
+header i {
+    background-color: #099fde !important
+}
+hahahahahaha
+
+header h1,
+header i {
+    font-weight: normal !important
+}
+
+.myhelp_product:before,
+.micro_phone:before,
+.limited_sale_pro .discount,
+.motif_list i,
+.icon_seckill,
+.sift_product .base_price,
+.index_search .starting:before,
+.index_search02 .starting:before,
+.bottom_tab_wrap .bottom_tab a:before,
+.travel_leader span:before,
+.package_tour_title .deals,
+.search_mod:before,
+.search_wrap2:before,
+.search_header .search_box2:before,
+.entry_list_b a:before,
+.entry_list_s a:before,
+.line_help::before,
+.advanced_place .ico_location,
+.index_more_search span:before,
+.my_package_tour span:before,
+.brand_service:before,
+.destination_grouptours_search .destination_search_wrap:before,
+.wrap_destionation_search .search_box2:before {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_index_v6.png?20150512.png);
+    background-repeat: no-repeat;
+    background-size: 280px auto
+}
+
+.limited_sale_pro .limited_title .deals,
+.travel_addition02 .hd_title,
+.package_tour_title .leave_country,
+.package_tour_title .inland,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.ent_box .ent_one .ent_pic,
+.ent_box .ent_two .ent_pic,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.two_item_box.ent_box .ent_content:after,
+.one_item_box.ent_box .ent_content:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden
+}
+
+.two_item_box.ent_box .ent_content h4:after,
+.one_item_box.ent_box .ent_content h4:after {
+    top: 50%;
+    right: 18px;
+    left: auto
+}
+
+.two_item_box.ent_box .ent_content h4,
+.one_item_box.ent_box .ent_content h4 {
+    float: left;
+    line-height: 34px;
+    margin-right: 10px;
+    margin-left: 1px
+}
+
+.two_item_box.ent_box .ent_content p,
+.one_item_box.ent_box .ent_content p {
+    float: left;
+    line-height: 34px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:768px) {
+    .ent_box .ent_content:after {
+        display: block;
+        content: "clear";
+        height: 0;
+        clear: both;
+        overflow: hidden;
+        visibility: hidden
+    }
+    .ent_box .ent_content h4:after {
+        top: 50%;
+        right: 18px;
+        left: auto
+    }
+    .ent_box .ent_content h4 {
+        float: left;
+        line-height: 34px;
+        margin-right: 10px;
+        margin-left: 1px
+    }
+    .ent_box .ent_content p {
+        float: left;
+        line-height: 34px
+    }
+}
+
+@media screen and (max-width:360px) {
+    .three_item_box.ent_box .ent_item {
+        text-align: center;
+        padding-left: 0
+    }
+    .three_item_box.ent_box .ent_pic {
+        float: none;
+        margin-left: 0;
+        display: inline-block
+    }
+    .three_item_box.ent_box .ent_img {
+        float: none;
+        margin-left: 0;
+        display: inline-block
+    }
+    .two_item_box.ent_box .ent_content h4,
+    .one_item_box.ent_box .ent_content h4 {
+        float: none;
+        line-height: 18px
+    }
+    .two_item_box.ent_box .ent_content p,
+    .one_item_box.ent_box .ent_content p {
+        float: none;
+        line-height: 18px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .three_item_box.ent_box .ent_item {
+        text-align: center;
+        padding-left: 0
+    }
+    .three_item_box.ent_box .ent_pic {
+        float: none;
+        margin-left: 0;
+        display: inline-block
+    }
+    .three_item_box.ent_box .ent_img {
+        float: none;
+        margin-left: 0;
+        display: inline-block
+    }
+    .two_item_box.ent_box .ent_content h4,
+    .one_item_box.ent_box .ent_content h4 {
+        line-height: 18px
+    }
+    .two_item_box.ent_box .ent_content p,
+    .one_item_box.ent_box .ent_content p {
+        line-height: 18px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:360px) {
+    .tourism_festival_t {
+        font-size: 13px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.line_help::before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.destionation_history::before {
+    content: "历史";
+    color: #999
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.unfold_btn,
+.retract_btn {
+    font-size: 12px;
+    color: #666;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+    height: 50px;
+    margin-top: -2px;
+    background: #fff
+}
+
+.unfold_btn:before,
+.retract_btn:before {
+    background: #e4e4e4;
+    width: 100%;
+    height: 1px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: 1px
+}
+
+.unfold_btn span,
+.retract_btn span {
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    padding: 0 17px 0 5px
+}
+
+.unfold_btn span:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.wrap_search_content.control_padding,
+.destionation_control.control_padding {
+    padding-top: 58px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (width:320px) {
+    .dest_quick .right_column a {
+        width: 98px
+    }
+    .dest_quick.dest_quick_b .right_column a {
+        width: 105px;
+        padding: 2px;
+        height: 36px
+    }
+    .dest_quick .dest_choose a:nth-of-type(2n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_hot a:nth-of-type(2n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_letter a:nth-of-type(2n) {
+        margin-right: 0
+    }
+}
+
+@media screen and (width:360px) {
+    .dest_quick .right_column a {
+        width: 77px
+    }
+    .dest_quick.dest_quick_b .right_column a {
+        width: 82px;
+        padding: 2px;
+        height: 36px
+    }
+    .dest_quick .dest_choose a:nth-of-type(3n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_hot a:nth-of-type(3n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_letter a:nth-of-type(3n) {
+        margin-right: 0
+    }
+}
+
+@media screen and (width:375px) {
+    .dest_quick .right_column a {
+        width: 82px
+    }
+    .dest_quick .dest_choose a:nth-of-type(3n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_hot a:nth-of-type(3n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_letter a:nth-of-type(3n) {
+        margin-right: 0
+    }
+    .dest_quick .right_column .dest_choose_box a {
+        width: 87px;
+        padding: 2px;
+        height: 36px
+    }
+}
+
+@media screen and (width:414px) {
+    .dest_quick .right_column a {
+        width: 70px
+    }
+    .dest_quick .right_column .dest_choose_box a {
+        width: 99px;
+        padding: 2px;
+        height: 36px
+    }
+    .dest_quick .dest_choose a:nth-of-type(4n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_hot a:nth-of-type(4n) {
+        margin-right: 0
+    }
+    .dest_quick .dest_choose_letter a:nth-of-type(4n) {
+        margin-right: 0
+    }
+}
+
+@media screen and (max-width:768px) {
+    .dext_pic_box .dext_pic .dext_img_box {
+        height: 200px
+    }
+}
+
+@media screen and (max-width:480px) {
+    .dext_pic_box .dext_pic .dext_img_box {
+        height: 109px
+    }
+}
+
+@media screen and (max-width:414px) {
+    .dext_pic_box .dext_pic .dext_img_box {
+        height: 75px
+    }
+}
+
+@media screen and (max-width:375px) {
+    .dext_pic_box .dext_pic .dext_img_box {
+        height: 62px
+    }
+}
+
+@media screen and (max-width:360px) {
+    .dext_pic_box .dext_pic .dext_img_box {
+        height: 56px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .dext_pic_box .dext_pic .dext_img_box {
+        height: 42px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (width:320px) {
+    .choose_departure .dest_list a {
+        width: 88px
+    }
+    .choose_departure .dest_list a:nth-of-type(3n) {
+        margin-right: 0
+    }
+}
+
+@media screen and (width:360px) {
+    .choose_departure .dest_list a {
+        width: 75px
+    }
+    .choose_departure .dest_list a:nth-of-type(4n) {
+        margin-right: 0
+    }
+}
+
+@media screen and (width:375px) {
+    .choose_departure .dest_list a {
+        width: 79px
+    }
+    .choose_departure .dest_list a:nth-of-type(4n) {
+        margin-right: 0
+    }
+}
+
+@media screen and (width:414px) {
+    .choose_departure .dest_list a {
+        width: 70px
+    }
+    .choose_departure .dest_list a:nth-of-type(5n) {
+        margin-right: 0
+    }
+}
+hahahahahaha
+
+.motif_list,
+.c_seckill {
+    table-layout: fixed;
+    width: 100%;
+    background: #fff;
+    border-collapse: collapse;
+    margin-bottom: 10px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.guess_dou:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:767px) {
+    .guess_price {
+        left: 0
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.trave_name .trave_name_bg,
+.trave_name .trave_name_more {
+    width: 25%;
+    display: inline-block;
+    padding: 0 2px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-size: 12px
+}
+
+.trave_time .trave_name_bg,
+.trave_time .trave_name_more {
+    width: 20%
+}
+
+.trave_name .trave_name_bg span,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (max-width:320px) {
+    .trave_box .trave_name_span {
+        max-width: 61px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.package_tour_title .deals,
+.package_tour_title .leave_country,
+.package_tour_title .inland,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.six_security dt,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.my_weidian span,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.browsing_price_num i,
+.browsing_price_money i {
+    color: rgba(255, 255, 255, 0.8);
+    margin-right: 2px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.advanced_search_list .more,
+.advanced_search_list .close {
+    color: #999
+}
+
+.advanced_search_list .more b,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.advanced_search .selected .closer i:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.advanced_date .specific i:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.adsearch_body .num-minus:after,
+.adsearch_body .num-add:after {
+    color: #009ee4;
+    background-color: #FFF
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.adsearch_transparent,
+.adsearch_gray {
+    min-width: 45px;
+    height: 20px;
+    line-height: 20px;
+    margin: -2px 5px 0 0;
+    padding: 0 5px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #099fde;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.adsearch_range_line,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.h_checkbox_checked:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.bulist_browsing_history .tour_list li:last-of-type .tour_content,
+.bulist_browsing_history .tour_list li:last-of-type {
+    border: 0 none
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.bulist_checked:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (max-width:767px) {
+    .bulist_checkbox {
+        left: 50px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.content_list ~ .footer,
+.content_list .footer {
+    height: 49px
+}
+
+.content_list ~ .footer.hide,
+.content_list .footer.hide {
+    -webkit-transform: translateY(49px);
+    -moz-transform: translateY(49px);
+    -ms-transform: translateY(49px);
+    -o-transform: translateY(49px);
+    transform: translateY(49px)
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.content_list .other .dv:after,
+.search_filter_tab li:before,
+.search_error:before,
+.double_column_pop .right_column ul::after,
+.detail_features .dv::after,
+.detail_pop .dv::after,
+.double_column_pop .right_column .double_grade i,
+.grade_content li h3 i,
+.grade_explain .close:after,
+.playgo_list li.down:before,
+.playgo_list li.up:before,
+.playgo_time .custom_time span:after {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_search0703.png?20150625.png);
+    background-repeat: no-repeat;
+    background-size: 153px auto
+}
+
+.detail_features .dv::after,
+.detail_pop .dv::after {
+    margin-right: 2px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes gradualtranslate {
+    0% {
+        -webkit-transform: translate3d(0, 100%, 0);
+        -moz-transform: translate3d(0, 100%, 0);
+        -o-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+hahahahahaha
+
+@-webkit-keyframes slideOutDown {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    to {
+        visibility: hidden;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+@keyframes slideOutDown {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    to {
+        visibility: hidden;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes dothabottomcheck {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 9px
+    }
+}
+
+@-ms-keyframes dothabottomcheck {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 9px
+    }
+}
+
+@keyframes dothabottomcheck {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 9px
+    }
+}
+
+@-webkit-keyframes dothatopcheck {
+    0% {
+        height: 0
+    }
+    50% {
+        height: 0
+    }
+    100% {
+        height: 18px
+    }
+}
+
+@-ms-keyframes dothatopcheck {
+    0% {
+        height: 0
+    }
+    50% {
+        height: 0
+    }
+    100% {
+        height: 18px
+    }
+}
+
+@keyframes dothatopcheck {
+    0% {
+        height: 0
+    }
+    50% {
+        height: 0
+    }
+    100% {
+        height: 18px
+    }
+}
+hahahahahaha
+hahahahahaha
+
+.animate_select::before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.double_column_pop .left_column li span,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.double_column_pop .select_date,
+.double_column_pop .select_price {
+    padding: 10px 20px
+}
+hahahahahaha
+
+.double_column_pop .select_date input,
+.double_column_pop .price_input {
+    border: 1px solid #e1e1e1;
+    height: 34px;
+    border-radius: 3px
+}
+hahahahahaha
+hahahahahaha
+
+.double_column_pop .select_date h3,
+.double_column_pop .select_price h3 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #333
+}
+
+.double_column_pop .select_date p,
+.double_column_pop .select_price p {
+    margin-bottom: 10px
+}
+
+.double_column_pop .botton_wrap .ok,
+.double_column_pop .botton_wrap .clear,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.blue_checkbox::before,
+.blue_checkbox::after {
+    background-color: #fff
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.requirement_wrap span i:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.top_1:before,
+.top_2:before,hahahahahaha
+
+.top_1,
+.top_2,
+.top_3 {
+    display: inline-block;
+    position: relative;
+    width: 33px;
+    height: 12px;
+    margin-right: 3px;
+    vertical-align: -1px
+}
+
+.top_1:before,
+.top_2:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.new_requirement_wrap span i:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (max-width:320px) {
+    .playgo_list li.font_size span {
+        padding: 0 5px
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    .playgo_list li.font_size span {
+        padding: 0 8px
+    }
+}
+
+.top_search_scorll:after,
+.tour_list .tour_info span:first-child:before,
+.tour_collect:before,
+.tour_contrast:before,
+.tour_list .tour_icon .wifi,
+.tour_list .tour_icon .dv,
+.tour_list .tour_pop:before,
+.tour_list .tour_close:before,
+.price_box .wifi:before,
+.content_list .other .wifi:before,
+.detail_features .wifi:before,
+.detail_pop .wifi:before,
+.detail_characteristic .wifi:before,
+.content_list .other .dv:after,
+.detail_features .dv::after,
+.detail_pop .dv::after,
+.supplier_date .supplier:before,
+.supplier_date .date:before,
+.tour_pop_select:before,
+.youxue_price_box .youxue_group:before {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_list.png?20150529.png);
+    background-repeat: no-repeat;
+    background-size: 110px auto
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tour_product_expand:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tour_list li.sold_out .tour_img,
+.tour_list li.sold_out .tour_content,
+.tour_list li.sold_out .recommended_reason {
+    opacity: .45
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes img_animation {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-ms-keyframes img_animation {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes img_animation {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tour_list .tour_info .tour_ctrip:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tour_list .tour_icon .wifi,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tour_foot_print,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tour_collect,
+.tour_contrast {
+    padding: 0 12px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    overflow: hidden
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+}
+hahahahahaha
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+hahahahahaha
+
+@media screen and (max-width:768px) {
+    .top_search_tab p {
+        padding: 0 11px
+    }
+    .tour_list li {
+        padding: 25px 306px 25px 115px;
+        border-bottom: 1px solid #eaeaea
+    }
+    .tour_list .tour_img {
+        margin-left: -105px
+    }
+    .tour_list .tour_info {
+        width: 125px;
+        right: 146px;
+        padding: 0 10px 0 15px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top_search_tab_box {
+        margin: 0 10px -1px 10px;
+        font-size: 14px
+    }
+    .top_search_tab {
+        padding-right: 64px
+    }
+    .top_search_tab p {
+        padding: 0 9px
+    }
+    .product_list_col {
+        margin: 0;
+        border-radius: 0
+    }
+    .tour_list li {
+        padding: 10px 0 0 90px;
+        border: 0 none
+    }
+    .tour_list .tour_img {
+        margin-left: -80px;
+        width: 80px;
+        height: 100px
+    }
+    .tour_list .tour_img img {
+        width: 80px;
+        height: 80px
+    }
+    .tour_list h3 {
+        font-size: 15px;
+        line-height: 17px;
+        height: 34px
+    }
+    .tour_list .tour_date {
+        font-size: 12px
+    }
+    .tour_list .tour_info {
+        border: 0;
+        position: static;
+        padding: 0;
+        width: auto;
+        height: auto
+    }
+    .tour_list .tour_info span {
+        display: inline;
+        font-size: 12px;
+        padding-right: 5px
+    }
+    .tour_list .tour_info span:first-child {
+        display: none
+    }
+    .tour_list .tour_info .tour_point {
+        font-size: 12px
+    }
+    .tour_list .tour_info .tour_point strong {
+        font-weight: normal
+    }
+    .tour_list .tour_info .tour_comment {
+        display: none
+    }
+    .tour_list .tour_info .tour_num em {
+        display: none
+    }
+    .tour_list .tour_fbd {
+        position: static;
+        width: auto;
+        float: left;
+        margin: 0 8px 0 0
+    }
+    .tour_list .tour_fbd .tour_collect {
+        display: none
+    }
+    .tour_list .tour_fbd .tour_contrast {
+        display: none
+    }
+    .tour_list .tour_fbd .tour_price {
+        font-size: 12px;
+        margin: -4px 0 0 0
+    }
+    .tour_list .tour_fbd .tour_actual {
+        font-size: 14px;
+        margin-bottom: 0
+    }
+    .tour_list .tour_fbd .tour_price strong {
+        font-size: 19px
+    }
+    .tour_list .tour_fbd .tour_price dfn {
+        vertical-align: 0
+    }
+    .tour_list .tour_pop,
+    .tour_list .tour_close {
+        position: absolute;
+        right: 0;
+        bottom: 2px;
+        padding: 0 6px;
+        width: 30px;
+        height: 100%
+    }
+    .tour_list .tour_close {
+        right: 10px;
+        bottom: 6px
+    }
+    .tour_list .tour_pop:before,
+    .tour_list .tour_close:before {
+        position: absolute;
+        bottom: 6px;
+        left: 10px;
+        content: "";
+        display: block;
+        width: 22px;
+        height: 11px
+    }
+    .tour_list .tour_pop:before {
+        background-position: -45px -218px
+    }
+    .tour_list .tour_close:before {
+        background-position: 6px -220px
+    }
+    .tour_list .tour_content {
+        position: relative;
+        padding: 0 10px;
+        height: 99px;
+        border-bottom: 1px solid #eaeaea
+    }
+    .tour_list .tour_pop_box {
+        display: block;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.95)
+    }
+    .tour_list .tour_pop_box p {
+        font-size: 12px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-height: 17px;
+        height: 34px;
+        margin-bottom: 26px
+    }
+    .tour_collect,
+    .tour_contrast {
+        width: 84px;
+        text-align: center;
+        padding: 0;
+        height: 28px;
+        line-height: 28px
+    }
+    .tour_collect.cur {
+        background: #fff
+    }
+    .tour_collect:before,
+    .tour_contrast:before {
+        margin-right: 5px
+    }
+    .tour_also_search {
+        padding: 10px
+    }
+    .tour_also_search .dest_search {
+        margin-top: 5px
+    }
+    .tour_also_search p {
+        font-size: 14px;
+        text-align: center
+    }
+    .tour_also_search a {
+        margin: 0 3px;
+        padding: 0 10px
+    }
+    .tour_foot_print,
+    .tour_foot_contrast {
+        width: 43px;
+        height: 43px;
+        line-height: 43px;
+        font-size: 14px
+    }
+    .tour_foot_contrast {
+        bottom: 115px;
+        font-size: 18px
+    }
+    .tour_foot_contrast i {
+        font-size: 11px;
+        width: 16px;
+        height: 16px;
+        right: -2px;
+        top: -2px;
+        line-height: 16px
+    }
+    .tour_return_vdian {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 14px;
+        bottom: 174px
+    }
+    .recommended_reason {
+        margin-left: -80px
+    }
+    .valet_rour .tour_list .tour_content {
+        height: inherit
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.cm-day-list:before,
+.cm-calendar .cm-calendar-hd:before,
+.cm-calendar .cm-calendar-ft .cm-calendar-quick-nav:before,
+.cm-day-list:after,
+.cm-calendar .cm-calendar-hd:after,
+.cm-calendar .cm-calendar-ft .cm-calendar-quick-nav:after {
+    content: "";
+    display: table
+}
+
+.cm-day-list:after,
+.cm-calendar .cm-calendar-hd:after,
+.cm-calendar .cm-calendar-ft .cm-calendar-quick-nav:after {
+    clear: both
+}
+
+.cm-day-list li,hahahahahaha
+
+.cm-day-list li:nth-of-type(7n),
+.cm-calendar .cm-calendar-hd li:nth-of-type(7n),
+.cm-day-list li:nth-of-type(7n+1),
+.cm-calendar .cm-calendar-hd li:nth-of-type(7n+1) {
+    width: 14.5%;
+    color: #666
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.cm-day-list li.active .cm-field-title,
+.cm-day-list li.active .cm-field-price,
+.cm-day-list li.active .cm-field-label {
+    color: #fff
+}
+
+.cm-day-list li.cm-item--disabled .cm-field-title,
+.cm-day-list li.cm-item--disabled .cm-field-price,
+.cm-day-list li.cm-item--disabled .cm-field-label {
+    color: #ccc
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.cm-day-list .icon-calendar-holiday,
+.cm-day-list .icon-calendar-work {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #333;
+    line-height: 14px;
+    height: 16px;
+    width: 16px;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    box-sizing: border-box
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.cm-calendar .cm-calendar-hd li:nth-of-type(7n),
+.cm-calendar .cm-calendar-hd li:nth-of-type(7n+1) {
+    color: #52bce8
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.sdp_calendar_wrapper .cm-day-list li.cm-item--disabled .cm-field-title,
+.cm-day-list li.cm-item--disabled .cm-field-price,
+.cm-day-list li.cm-item--disabled .cm-field-label {
+    color: #ccc
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.sdp_calendar_wrapper .cm-day-list .icon-calendar-holiday,
+.sdp_calendar_wrapper .cm-day-list .icon-calendar-work {
+    border: 0;
+    left: 2px;
+    width: 0;
+    height: 0
+}
+
+.sdp_calendar_wrapper li.on .icon-calendar-holiday,
+.sdp_calendar_wrapper li.on .icon-calendar-work {
+    color: #fff
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.filter_result_pop .list_btn_ok,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.filter_option_content .selected i:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.daysbox .label,hahahahahaha
+
+.daysbox .label span,
+.input_pop_btn span,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.daysbox .label p,
+.input_pop_btn span,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@keyframes myfirst {
+    0% {
+        bottom: 130px
+    }
+    100% {
+        bottom: 60px
+    }
+}
+
+@-moz-keyframes myfirst {
+    0% {
+        bottom: 130px
+    }
+    100% {
+        bottom: 60px
+    }
+}
+
+@-webkit-keyframes myfirst {
+    0% {
+        bottom: 130px
+    }
+    100% {
+        bottom: 60px
+    }
+}
+
+@-o-keyframes myfirst {
+    0% {
+        bottom: 130px
+    }
+    100% {
+        bottom: 60px
+    }
+}
+hahahahahaha
+
+@keyframes myfirst2 {
+    0% {
+        bottom: 200px
+    }
+    100% {
+        bottom: 130px
+    }
+}
+
+@-moz-keyframes myfirst2 {
+    0% {
+        bottom: 200px
+    }
+    100% {
+        bottom: 130px
+    }
+}
+
+@-webkit-keyframes myfirst2 {
+    0% {
+        bottom: 200px
+    }
+    100% {
+        bottom: 130px
+    }
+}
+
+@-o-keyframes myfirst2 {
+    0% {
+        bottom: 200px
+    }
+    100% {
+        bottom: 130px
+    }
+}
+hahahahahaha
+
+@keyframes myfirst3 {
+    0% {
+        bottom: 270px
+    }
+    100% {
+        bottom: 200px
+    }
+}
+
+@-moz-keyframes myfirst3 {
+    0% {
+        bottom: 270px
+    }
+    100% {
+        bottom: 200px
+    }
+}
+
+@-webkit-keyframes myfirst3 {
+    0% {
+        bottom: 270px
+    }
+    100% {
+        bottom: 200px
+    }
+}
+
+@-o-keyframes myfirst3 {
+    0% {
+        bottom: 270px
+    }
+    100% {
+        bottom: 200px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .android_box .tour_foot_contrast {
+        bottom: 170px
+    }
+    .android_box .tour_return_vdian {
+        bottom: 224px
+    }
+    .android_box .tour_foot_print.text_lin3 {
+        bottom: 116px
+    }
+    .tour_foot_print.text_lin2 {
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+        padding: 5px
+    }
+    .tour_foot_print.text_lin3 {
+        width: 33px;
+        height: 33px;
+        line-height: 16px;
+        padding: 5px
+    }
+    .tour_foot_print.text_lin4 {
+        width: 33px;
+        height: 33px;
+        line-height: 16px;
+        padding: 5px
+    }
+    .tour_foot_print.text_lin4:before {
+        width: 17px;
+        height: 22px;
+        background-position: 0 0;
+        left: 14px;
+        top: 14px
+    }
+    .tour_foot_print.text_lin3.cur {
+        bottom: 60px;
+        animation: myfirst 1s;
+        -moz-animation: myfirst 1s;
+        -webkit-animation: myfirst 1s;
+        -o-animation: myfirst 1s
+    }
+    @keyframes myfirst {
+        0% {
+            bottom: 116px
+        }
+        100% {
+            bottom: 60px
+        }
+    }
+    @-moz-keyframes myfirst {
+        0% {
+            bottom: 116px
+        }
+        100% {
+            bottom: 60px
+        }
+    }
+    @-webkit-keyframes myfirst {
+        0% {
+            bottom: 116px
+        }
+        100% {
+            bottom: 60px
+        }
+    }
+    @-o-keyframes myfirst {
+        0% {
+            bottom: 116px
+        }
+        100% {
+            bottom: 60px
+        }
+    }
+    .tour_foot_contrast.cur {
+        bottom: 116px;
+        animation: myfirst2 1s;
+        -moz-animation: myfirst2 1s;
+        -webkit-animation: myfirst2 1s;
+        -o-animation: myfirst2 1s
+    }
+    @keyframes myfirst2 {
+        0% {
+            bottom: 170px
+        }
+        100% {
+            bottom: 116px
+        }
+    }
+    @-moz-keyframes myfirst2 {
+        0% {
+            bottom: 170px
+        }
+        100% {
+            bottom: 116px
+        }
+    }
+    @-webkit-keyframes myfirst2 {
+        0% {
+            bottom: 170px
+        }
+        100% {
+            bottom: 116px
+        }
+    }
+    @-o-keyframes myfirst2 {
+        0% {
+            bottom: 170px
+        }
+        100% {
+            bottom: 116px
+        }
+    }
+    .tour_return_vdian.cur {
+        bottom: 170px;
+        animation: myfirst3 1s;
+        -moz-animation: myfirst3 1s;
+        -webkit-animation: myfirst3 1s;
+        -o-animation: myfirst3 1s
+    }
+    @keyframes myfirst3 {
+        0% {
+            bottom: 224px
+        }
+        100% {
+            bottom: 170px
+        }
+    }
+    @-moz-keyframes myfirst3 {
+        0% {
+            bottom: 224px
+        }
+        100% {
+            bottom: 170px
+        }
+    }
+    @-webkit-keyframes myfirst3 {
+        0% {
+            bottom: 224px
+        }
+        100% {
+            bottom: 170px
+        }
+    }
+    @-o-keyframes myfirst3 {
+        0% {
+            bottom: 224px
+        }
+        100% {
+            bottom: 170px
+        }
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.recent_filter .close i:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.supplier_date .supplier:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.level_tit .icon_diamond:after,
+.icon_s_star,hahahahahaha
+hahahahahaha
+
+.htl_level_tips .level_tit,
+.htl_level_tips .level_line {
+    display: table-cell
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.level_tit em:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.datecontainer .cui-hd:first-child,
+.datecontainer .cui-roller-btns {
+    display: none
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.dp_loading i,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media(max-width:374px) {
+    .vacation_diy_tip2 .text .h2_tit {
+        font-size: 14px
+    }
+    .vacation_diy_tip2 .diy_dp {
+        width: 58px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:768px) {
+    .limited_sale_pro li {
+        width: 22%;
+        margin-right: 4%
+    }
+    .limited_sale_pro li:nth-of-type(2n) {
+        margin-right: 4%
+    }
+    .limited_sale_pro li:nth-of-type(4n) {
+        margin-right: 0
+    }
+    .guess_pro_list li {
+        width: 22%;
+        margin-right: 4%
+    }
+    .guess_pro_list li:nth-of-type(2n) {
+        margin-right: 4%
+    }
+    .guess_pro_list li:nth-of-type(4n) {
+        margin-right: 0
+    }
+    .package_tour_pro li {
+        float: left;
+        width: 22%;
+        margin-right: 4%;
+        border-bottom: 0 none
+    }
+    .package_tour_pro li:nth-of-type(4n) {
+        margin-right: 0
+    }
+    .package_tour_pro li a {
+        padding: 12px 0;
+        height: auto
+    }
+    .package_tour_pro .img_box {
+        float: none;
+        margin-left: 0;
+        width: 100%;
+        height: inherit
+    }
+    .package_tour_pro .img_box img {
+        width: 100%;
+        height: inherit;
+        margin-left: 0
+    }
+    .package_tour_pro .title_list {
+        float: none;
+        width: 100%;
+        margin-top: 2px
+    }
+    .package_tour_pro .limited_sale_price {
+        float: none;
+        display: block;
+        margin-top: 2px;
+        width: 100%
+    }
+    .package_tour_pro li.border1px_scaley:after {
+        width: 0
+    }
+    .six_security {
+        width: 450px;
+        padding-top: 20px
+    }
+    .six_security dd {
+        width: 150px
+    }
+    .six_security dt {
+        margin-top: -10px
+    }
+    .supplier_date .supplier {
+        display: none
+    }
+    .tour_list .tour_icon .tour_pop_select {
+        display: block
+    }
+    .tour_list .tour_icon .tour_pop_select:after {
+        border: 0 none
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.testing_tour_festival .tourism_festival_t .icon,
+.testing_tour_festival .tourism_festival_b .icon {
+    padding: 2px 0
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.abtesting_ad .pic_left,
+.new_pic_left {
+    position: relative;
+    float: left;
+    width: 50%
+}
+
+.abtesting_ad .pic_left:after,
+.new_pic_left:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 200%;
+    height: 200%;
+    border-right: 1px solid #d4d4d4;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    box-sizing: border-box
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (width:414px) {
+    .abtesting_ad .pic_left img {
+        height: 208px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .weather_vane {
+        zoom: 1.5
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_cBlue,
+a.uu_cBlue {
+    color: #4fc0ed
+}
+hahahahahaha
+
+.uu_body h1,
+.uu_body h2,
+.uu_body h3,
+.uu_body h4,
+.uu_body h5,
+.uu_body h6 {
+    font-weight: 500
+}
+
+.uu_body input[type="text"],
+.uu_body input[type="search"],
+.uu_body input[type="number"],
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+.uu_body textarea {
+    -ms-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_closer>.ico:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.flow1_2,
+.flow1_4 {
+    text-align: center;
+    font-size: 0
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_btnarea>a:nth-of-type(2n+2) {
+    width: 50%
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_calendar>.item:nth-of-type(2n+2) {
+    border-right: 0 none
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_calendar .insure_pulldown:after,
+.uu_calendar .insure_go:after {
+    right: 15px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes ani_flash {
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+
+@-moz-keyframes flash {
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+
+@-ms-keyframes flash {
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+
+@keyframes flash {
+    0%,
+    50%,
+    100% {
+        opacity: 1
+    }
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tag_transparent,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.tag_bd_green,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_range_line,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_body .circle-left,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.uu_body .circle-left:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.hint_ico_l:before,
+.hint_ico_l:after {
+    content: '';
+    overflow: hidden
+}
+
+.hint_ico_right,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.base_list li:last-child,
+.base_list .no_border {
+    border: 0 none
+}
+hahahahahaha
+
+.base_list .input_text,
+.book_box .input_text {
+    font-size: 16px;
+    width: 100%;
+    padding: 0 1px;
+    width: 98%\9;
+    margin-top: 0;
+    height: auto
+}
+
+.back_ico:after,
+.home_ico:after,
+.route_day span,
+.tel_ico:after,
+.collect_ico:after,
+.search_ico:after,
+.share_ico:after,
+.love_ico:after {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/back_home.png?20140909.png);
+    background-repeat: no-repeat;
+    background-size: 64px auto
+}
+
+.route_day span,
+.route_day i,
+.route_day i:after,
+.route_loading i,
+.base_loading i,
+.wireless_failure .no_wifi .wifi_ico,
+.wireless_failure .no_wifi:before,
+.wireless_failure .dial_service .dial_btn:before,
+.fee_txt h3:after,
+.more_info li a:after,
+.banner_box .img_wrap .pic_loading:after,
+.banner_box .pic_fail:after,
+.banner_box .pic_none:after,
+.score_ico li,
+.no_comment:before,
+.visa_list li a:after,
+.man_box:before,
+.child_box:before,
+.icon_date,
+.box_hidden h4:after,
+.plan_list:before,
+.train_list:before,
+.ship_list:before,
+.bus_list:before,
+.arrows_icon:after,
+.btn_cur:before,
+.base_list .take_site dt i.cur:after,
+.item_select li.cur:after,
+.passenger_tips:after,
+.passenger_select .passenger_datail.cur i:after,
+.passenger_select .edit_icon:after,
+.coupon_list .cur i:after,
+.finsh_title:before,
+.hotel_icon:before,
+.hotel_address:before,
+.wifi_icon,
+.park_icon,
+.date_ico:before,
+.room_area:before,
+.room_peo:before,
+.room_balance:before,
+.room_floor:before,
+.room_bed:before,
+.room_smok:before,
+.room_web:before,
+.book_limit:after,
+.book_intro:after,
+.htl_list:before,
+.htl_list .address:before,
+.htl_list .tel_num:before,
+.add_icon:after,
+.more_text a:after,
+.query_myorder li:after,
+.child_box .child_notice:before,
+.loading_ico,
+.hotel_list li:before,
+.sort_item:after,
+.list_filter_item dd:after,
+.list_filter_checkbox p i:after,
+.no_collection_notice:before,
+.v_guest .edit_icon:after,
+.v_passenger_tips:after,
+.list_filter_radio .checkbox_ico:after,
+.detail_features:after,
+.banner_box .collect_ico,
+.price_box .discount,
+.time_icon_01::before,
+.time_icon_02::before,
+.time_icon_03::before,
+.time_icon_04::before,
+.time_icon_05::before,
+.time_icon_06::before,
+.time_icon_07::before,
+.time_icon_08::before,
+.time_icon_09::before,
+.time_icon_10::before,
+.time_icon_11::before,
+.time_icon_12::before,
+.time_icon_13::before,
+.time_icon_14::before,
+.abc_fixed_btn::before,
+.hotel_fixed_btn::before,
+.leader_detail .leader_score i,
+.score_giving i.mobile::before,
+.my_consult h3::before,
+.score_fliter li.current::after,
+.detail_characteristic dd:after,
+.detail_mod_leader .leader_score i,
+.consult_city_choose li.current::after,
+.detail_characteristic .wifi:before,
+.detail_characteristic .dv:before,
+.detail_favorable:after,
+.detail_characteristic:after,
+.detail_more_down .more_back,
+.detail_dr_share dd:after,
+.daren_share_pop .share_close:after,
+.content_list .other .wifi:before,
+.content_list .other .dv:before,
+.detail_mod_dealer .dealer_call span:before,
+.detail_mod_feature .detail_feature_down:after,
+.detail_mod_feature .detail_feature_up:after,
+.banner_box .banner_tips:before,
+.title_down,
+.title_up,
+.route_consume:before,
+.detail_safeguard em:before,
+.visa_agency_down:after,
+.visa_agency_up:after,
+.other_attention .mod_hd:before,
+.ico_exclusive_discount,
+.discount_icon_phone,
+.detail_similar_product .similar_product_supplier i,
+.detail_discount:after,
+.detail_safeguard:after,
+.detail_ticket:after,
+.pop_close,
+.contrast_safeguard:before,
+.detail_travel_num span:before,
+.detail_travel_num em:before,
+.hotel_hint_close,
+.detail_mod_schedule .schedule_slide_tips:after,
+.detail_safeguard_list dt:before,
+.travel_guider .con:after {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_detail.png?20160422.png);
+    background-repeat: no-repeat;
+    background-size: 104px auto
+}
+hahahahahaha
+
+.title_down,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media all and (orientation:landscape) {
+    .book_next_mod {
+        width: 100%
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.comment_result::before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes animation_input1 {
+    0% {
+        opacity: 0
+    }
+    20% {
+        opacity: 1
+    }
+    40% {
+        opacity: 0
+    }
+    60% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes animation_input1 {
+    0% {
+        opacity: 0
+    }
+    20% {
+        opacity: 1
+    }
+    40% {
+        opacity: 0
+    }
+    60% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.top_banner .close::before {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: url(https://pic.c-ctrip.com/h5/group_travel/un_detail.png?20141113.png) -40px -595px no-repeat;
+    background-size: 104px auto
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.comment_item_simple .item_hd:nth-of-type(1),
+.comment_item_simple .item_hd:nth-of-type(2) {
+    margin-top: 0
+}
+hahahahahaha
+hahahahahaha
+
+.score_num:after,hahahahahaha
+hahahahahaha
+
+.score_num:after {
+    content: "分";
+    font-size: 14px;
+    margin-left: 2px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.score_box .comment_item:before,
+.score_box .comment_item:after {
+    background: #d4d4d4
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.comment_item_item .item_hd,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes add {
+    30% {
+        opacity: 1
+    }
+    100% {
+        top: -31px;
+        opacity: 0
+    }
+}
+
+@-ms-keyframes add {
+    30% {
+        opacity: 1
+    }
+    100% {
+        top: -31px;
+        opacity: 0
+    }
+}
+
+@keyframes add {
+    30% {
+        opacity: 1
+    }
+    100% {
+        top: -31px;
+        opacity: 0
+    }
+}
+
+.comment_down,
+.comment_up {
+    display: inline-block;
+    padding-right: 30px
+}
+
+.comment_down:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.score_ico:before {
+    content: "总评";
+    font-size: 14px;
+    float: left;
+    margin-right: 6px;
+    line-height: 16px
+}
+hahahahahaha
+
+.star_4 li:nth-of-type(5),
+.star_3 li:nth-of-type(5),
+.star_2 li:nth-of-type(5),
+.star_1 li:nth-of-type(5),
+.star_3 li:nth-of-type(4),
+.star_2 li:nth-of-type(4),
+.star_1 li:nth-of-type(4),
+.star_2 li:nth-of-type(3),
+.star_1 li:nth-of-type(3),
+.star_1 li:nth-of-type(2),
+.star_3_half li:nth-of-type(5),
+.star_2_half li:nth-of-type(5),
+.star_2_half li:nth-of-type(4),
+.star_1_half li:nth-of-type(5),
+.star_1_half li:nth-of-type(4),
+.star_1_half li:nth-of-type(3),
+.star_half li:nth-of-type(5),
+.star_half li:nth-of-type(4),
+.star_half li:nth-of-type(3),
+.star_half li:nth-of-type(2) {
+    background-position: -6px -268px
+}
+
+.star_4_half li:nth-of-type(5),
+.star_3_half li:nth-of-type(4),
+.star_2_half li:nth-of-type(3),
+.star_1_half li:nth-of-type(2),
+.star_half li:nth-of-type(1) {
+    background-position: -6px -287px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:321px) and (max-width:360px) {
+    .comment_pic_list li {
+        margin-right: 6px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.order_details li,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.order_details li h3,
+.order_review_list li h3,
+.order_cancel_details_list li h3 {
+    font-size: 16px;
+    float: left;
+    color: #333;
+    width: 90px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: -90px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.order_review_notice+.order_review_list {
+    margin-top: -5px
+}
+
+@media screen and (min-width:321px) and (max-width:360px) {
+    .order_review_frm_list li.order_tour_feel {
+        padding-bottom: 5px
+    }
+    .order_pic_list .pic_faild em {
+        width: 68px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.comment_star0,
+.comment_star1,
+.comment_star2,
+.comment_star3,
+.comment_star4,
+.comment_star5,
+.comment_star5_hover,
+.comment_star4_hover,
+.comment_star3_hover,
+.comment_star2_hover,
+.comment_star1_hover {
+    float: left;
+    width: 145px;
+    height: 24px;
+    line-height: 24px;
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_commentstar.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 290px auto
+}
+
+.comment_star5,
+.comment_star5_hover {
+    background-position: 0 0
+}
+
+.comment_star4,
+.comment_star4_hover {
+    background-position: -29px 0
+}
+
+.comment_star3,
+.comment_star3_hover {
+    background-position: -58px 0
+}
+
+.comment_star2,
+.comment_star2_hover {
+    background-position: -87px 0
+}
+
+.comment_star1,
+.comment_star1_hover {
+    background-position: -116px 0
+}
+
+.comment_star0,
+.comment_star0_hover {
+    background-position: -145px 0
+}
+
+.order_review_btn,
+.order_cancel_btn {
+    padding: 10px 15px;
+    text-align: center;
+    overflow: hidden
+}
+
+.order_review_btn a,
+.order_cancel_btn a {
+    line-height: 46px;
+    font-size: 20px;
+    display: block;
+    color: #099fde;
+    border: 1px solid #099fde;
+    background-color: #fff;
+    border-radius: 5px
+}
+
+.order_review_btn .except,
+.order_cancel_btn .except {
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box
+}
+
+.order_review_btn .except:nth-of-type(1),
+.order_cancel_btn .except:nth-of-type(1) {
+    float: left
+}
+
+.order_review_btn .except:nth-of-type(2),
+.order_cancel_btn .except:nth-of-type(2) {
+    float: right
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.box_btn_cannel,
+.box_btn_submit {
+    display: inline-block;
+    width: 49.9%;
+    font-size: 15px;
+    vertical-align: top
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.order_pic_list .pic_add input,
+.order_pic_list .pic_faild input {
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+hahahahahaha
+
+.order_pic_list .pic_loading i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 26px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -13px 0 0 -13px;
+    z-index: 2;
+    background: url(https://pic.c-ctrip.com/h5/group_travel/un_detail.png?20140811.png) -1px -209px no-repeat;
+    background-size: 104px auto;
+    -webkit-animation: backward_loading 1.2s linear infinite;
+    -moz-animation: backward_loading 1.2s linear infinite;
+    -ms-animation: backward_loading 1.2s linear infinite;
+    animation: backward_loading 1.2s linear infinite
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:321px) and (max-width:360px) {
+    .order_pic_list {
+        margin: 0 -6px -6px 0
+    }
+    .order_pic_list span {
+        margin: 0 6px 6px 0;
+        width: 78px;
+        height: 78px
+    }
+    .order_pic_list span img {
+        width: 78px;
+        height: 78px
+    }
+    .order_review_frm_list li.order_tour_feel {
+        padding-bottom: 5px
+    }
+    .order_pic_list .pic_faild em {
+        width: 68px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.coupons_tit,hahahahahaha
+
+.coupons_tit::before,
+.coupons_money,hahahahahaha
+
+.coupons_tit::before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.coupons_share .coupons_share_btn::before,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:680px) {
+    .coupons_share .coupons_share_tips {
+        display: inline-block;
+        font-size: 20px;
+        padding-top: 20px
+    }
+    .coupons_share .coupons_share_btn {
+        vertical-align: 4px
+    }
+}
+
+.submit_result_mod .icon_success,
+.submit_result_mod .status::before,
+.submit_result_mod .status::after,
+.submit_result_mod .tips::before,
+.submit_result_mod .tips::after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.submit_result_mod .tips::before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.consult_clear,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.consult_wrap .consult_product::after,
+.booking_notice_detail .notice_fold p::after,
+.my_consult h3::after,
+.my_consult .consult_wrap .consult_detail::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #ddd;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 bottom;
+    -ms-transform-origin: 0 bottom;
+    transform-origin: 0 bottom
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.my_consult_wrap,
+.seo_consult_wrap {
+    padding-top: 0
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.pic_switch .prev,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.pic_switch .disable:before,
+.pic_switch .disable:after {
+    border-left-color: #cbcbcb;
+    border-right-color: #cbcbcb
+}
+hahahahahaha
+hahahahahaha
+
+.v_checkbox_select .animate_select2::before,
+.v_checkbox_select .animate_select2::after {
+    background-color: #fff
+}
+
+.del_icon:before,
+.contrast_icon {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_contrast.png?20150602.png);
+    background-repeat: no-repeat;
+    background-size: 100px auto
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.contrast_list_item+.contrast_list_item {
+    border-top: 1px solid #ededed
+}
+hahahahahaha
+
+.del_icon,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.contrast_list .v_checkbox_disable,
+.contrast_list .v_checkbox_disable p,
+.contrast_list .v_checkbox_disable .contrast_price {
+    color: #999
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.contrast_tb th,
+.contrast_tb td {
+    padding: 8px 8px;
+    position: relative;
+    vertical-align: top
+}
+
+.contrast_tb th:after,
+.contrast_tb td:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #e2e2e2;
+    left: 0;
+    bottom: 0;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5)
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.contrast_down:after,
+.contrast_up:after,hahahahahaha
+
+.contrast_down,
+.contrast_up {
+    padding-bottom: 15px;
+    position: relative
+}
+
+.contrast_down:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.plane_nostop,hahahahahaha
+hahahahahaha
+
+.traffic_td h5,
+.traffic_td h6 {
+    font-weight: normal;
+    margin-bottom: 3px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.contrast_summary_list dd:only-child,
+.detail_summary_list dd:nth-of-type(2) {
+    padding-right: 0
+}
+
+.bargain_box h3:before,
+.bargain_box h3:after,
+.bargain_box .count_down em:before,
+.bargain_box dl dt:before,
+.bargain_rule dl dt:before {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_bargain.png?20141112.png);
+    background-repeat: no-repeat;
+    background-size: 88px auto
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.bargain_box dl dt,
+.bargain_rule dl dt {
+    margin-bottom: 5px;
+    font-size: 16px
+}
+
+.bargain_box dl dt:before,
+.bargain_rule dl dt:before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 11px;
+    height: 11px;
+    background-position: -15px 0
+}
+
+.bargain_box dl dd,
+.bargain_rule dl dd {
+    color: #666
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.bargain_people .bargain_num_zero,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.bargain_bottom .bargain_btn,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.bargain_box dl .imp,
+.bargain_rule dl .imp {
+    color: #f33c3c
+}
+
+.caidan_title:before,
+.caidan_price strong,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.caidan_txt strong,
+.caidan_txt em {
+    color: #666
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.caidan_form:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.header_icon_back,
+.header_icon_list,
+.header_icon_share {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.9)
+}
+hahahahahaha
+
+.header_icon_back:after,
+.header_icon_list:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_header_scroll .header_icon_back,
+.detail_header_scroll .header_icon_list,
+.detail_header_scroll .header_icon_share,
+.detail_header_top .header_icon_back,
+.detail_header_top .header_icon_list,
+.detail_header_top .header_icon_share {
+    background: 0
+}
+hahahahahaha
+
+.cm-pop--user-nav .cm-pop-list li:active,
+.cm-pop--user-nav .cm-pop-list li:hover {
+    background: #283847
+}
+
+.border_top_1px:before,
+.border_bottom_1px:after,
+.detail_characteristic:before,
+.detail_mod_box:before,
+.detail_mod_box:after,
+.detail_product_intro:after,
+.detail_slide_tab:before,
+.detail_slide_tab:after,
+.detail_mod_more .more_list li:before,
+.characteristic_info .characteristic_list li:after,
+.detail_pop .pop_list li:after,
+.detail_bottom:after,
+.more_info:before,
+.more_info li:after,
+.detail_dr_share:after,
+.daren_pop li:after,
+.daren_share_pop dd:after,
+.detail_favorable:before,
+.detail_mod_feature .detail_feature_down:before,
+.detail_mod_feature .detail_feature_up:before,
+.detail_recommend_list li:before,
+.detail_mod_recommend .detail_recommend_keyword:before,
+.route_arrange_list .route_hotel_other:after,
+.detail_hotel_info:after,
+.detail_hotel_info:before,
+.comment_item:before,
+.comment_item:after,
+.order_details:after,
+.order_review_frm_list:before,
+.order_review_frm_list:after,
+.order_review_item:before,
+.order_review_item:after,
+.order_review_frm_list li.order_tour_feel:before,
+.order_review_list:before,
+.order_review_list li:after,
+.detail_comment_list:before,
+.detail_header_top:after,
+.detail_header_scroll:after,
+.schedule_hd:nth-child(3):before,
+.booking_notice_detail li:before,
+.booking_notice_detail li:after,
+.detail_hotel_list li:before,
+.detail_product_summary li:after,
+.detail_safeguard:before,
+.order_review_mod:before,
+.order_review_mod:after,
+.detail_ticket:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e2e2e2;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 top;
+    -ms-transform-origin: 0 top;
+    transform-origin: 0 top
+}
+
+.border_bottom_1px:after,
+.detail_mod_box:after,
+.detail_product_intro:after,
+.detail_slide_tab:after,
+.route_arrange .route_arrange_title:after,
+.detail_pop .pop_list li:after,
+.more_info li:after,
+.detail_hotel_info:after,
+.comment_item:after,
+.order_details:after,
+.order_review_frm_list:after,
+.order_review_item:after,
+.order_review_list li:after,
+.detail_header_top:after,
+.detail_header_scroll:after,
+.booking_notice_detail li:after,
+.detail_hotel_list li:before,
+.order_review_mod:after {
+    top: auto;
+    bottom: 0;
+    -webkit-transform-origin: 0 bottom;
+    -ms-transform-origin: 0 bottom;
+    transform-origin: 0 bottom
+}
+
+.detail_mod_schedule .schedule_list span:before,
+.detail_characteristic i:after,
+.detail_mod_recommend .detail_recommend_label span:after,
+.detail_mod_recommend .detail_recommend_keyword span:after,
+.detail_hotel_mod:after,
+.comment_textarea:after,
+.order_review_item .comment_textarea:after,
+.order_pic_list span:after,
+.abc_schedule dt:after,
+.detail_label i:after,
+.detail_product_summary .detail_summary_icon:after,
+.detail_type_icon:after,
+.discount_icon_a:after,
+.detail_start li:after,
+.travel_guider .icon_guider:after {
+    content: "";
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border: 1px solid #e2e2e2;
+    left: 0;
+    top: 0;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0
+}
+hahahahahaha
+hahahahahaha
+
+.detail_body_blur~.detail_bottom,
+.detail_body_blur~.detail_book_info {
+    -webkit-filter: blur(5px)
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_caidan {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/detail_caidan.png?20140428);
+    background-repeat: no-repeat;
+    background-size: 215px auto;
+    width: 215px;
+    height: 108px;
+    position: absolute;
+    font-size: 0;
+    color: #fff;
+    right: 5px;
+    bottom: 70px;
+    z-index: 10
+}
+hahahahahaha
+
+.content_list .diamond,
+.detail_product_intro .diamond,
+.detail_pop .diamond,
+.similar_product_col .diamond {
+    border: 0 none;
+    padding: 0;
+    background: url(https://pic.c-ctrip.com/h5/group_travel/diamond.png) repeat-x 0 center;
+    background-size: 12px auto;
+    height: 20px;
+    float: left
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_product_intro .diamond,
+.detail_pop .diamond,
+.similar_product_col .diamond {
+    float: none;
+    display: inline-block;
+    height: 18px;
+    vertical-align: text-bottom;
+    margin-left: 8px
+}
+hahahahahaha
+hahahahahaha
+
+.detail_characteristic i,
+.detail_mod_recommend .detail_recommend_label span {
+    font-size: 12px;
+    display: inline-block;
+    line-height: 14px;
+    height: 14px;
+    color: #666;
+    background: #fff;
+    vertical-align: middle;
+    padding: 1px 2px 0;
+    position: relative;
+    margin-right: 3px
+}
+
+.detail_characteristic i:after,
+.detail_mod_recommend .detail_recommend_label span:after {
+    border-radius: 4px;
+    border-color: #ccc
+}
+
+.detail_characteristic .wifi:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_safeguard,hahahahahaha
+hahahahahaha
+
+.detail_safeguard:after,
+.detail_ticket:after {
+    content: "";
+    overflow: hidden;
+    width: 8px;
+    height: 13px;
+    top: 50%;
+    margin-top: -7px;
+    background-position: -20px -594px;
+    right: 15px;
+    position: absolute
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.price_new,hahahahahaha
+
+.price_new dfn,
+.price_sale dfn {
+    font-size: 12px
+}
+
+.price_new em,
+.price_sale em {
+    font-weight: normal;
+    font-size: 12px;
+    color: #666;
+    margin-left: 2px
+}
+
+.price_new_save,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_discount .discount_icon_a,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_adviser .a_adviser,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detai_mask_bottom .detail_bottom_close:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.mask_coupon_disable h3,
+.mask_coupon_disable p {
+    color: #999
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_slide_tab p.current,
+.detail_slide_tab p.current a {
+    color: #1491c5
+}
+hahahahahaha
+
+.detail_slide_tab p:nth-of-type(1).current~.slide_border,
+.slide_border0 {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.detail_slide_tab p:nth-of-type(2).current~.slide_border,
+.slide_border1 {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%)
+}
+
+.detail_slide_tab p:nth-of-type(3).current~.slide_border,
+.slide_border2 {
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    transform: translateX(200%)
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.daren_share_pop dd,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_mod_box {
+    margin-bottom: 10px;
+    padding: 4px 0 0 15px;
+    background: #fff;
+    position: relative
+}
+
+.detail_mod_box .mod_hd {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 40px;
+    padding-right: 15px;
+    position: relative;
+    overflow: hidden
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_mod_box .mod_bd {
+    padding: 0 15px 12px 0;
+    position: relative
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_mod_schedule .schedule_list span:active,
+.detail_mod_schedule .schedule_list span:hover {
+    background: #f3f3f3
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_mod_feature .mod_bd * {
+    text-align: left !important;
+    font: 14px/1.5 Arial, "Lucida Grande", Verdana, "Microsoft YaHei", hei !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important
+}
+hahahahahaha
+hahahahahaha
+
+.detail_mod_feature .detail_feature_down,
+.detail_mod_feature .detail_feature_up {
+    text-align: center;
+    line-height: 43px;
+    color: #666;
+    position: relative;
+    margin-top: 8px
+}
+
+.detail_mod_feature .detail_feature_down:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.travel_guider .guider_name,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.route_arrange_hd {
+    margin: 10px;
+    text-align: center;
+    color: #666;
+    position: relative
+}
+
+.route_arrange_hd span {
+    position: relative;
+    z-index: 1;
+    padding: 0 14px;
+    background: #f5f5f5
+}
+
+.route_arrange_hd:before {
+    content: "";
+    height: 1px;
+    background: #d4d4d4;
+    position: absolute;
+    width: 100%;
+    top: 49%;
+    left: 0;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5)
+}
+
+.route_arrange_col {
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 1px #ccc
+}
+
+.route_arrange {
+    position: relative
+}
+
+.route_arrange .route_arrange_title {
+    padding: 15px 0;
+    font-size: 16px
+}
+
+.route_arrange .route_arrange_title:after {
+    content: ".";
+    display: block;
+    height: 1px;
+    clear: both;
+    visibility: hidden
+}
+
+.route_arrange .route_arrange_title strong {
+    margin: 0 5px 0 -16px;
+    padding: 0 8px 0 16px;
+    float: left;
+    font-weight: normal;
+    line-height: 24px;
+    background: #67c0fb;
+    color: #fff;
+    position: relative
+}
+
+.route_arrange .route_arrange_title strong:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 3px solid #067cb1;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    left: 0;
+    bottom: -6px;
+    position: absolute
+}
+
+.route_arrange .route_arrange_title span {
+    display: block;
+    overflow: hidden;
+    color: #333;
+    font-weight: normal;
+    line-height: 24px
+}
+
+.route_arrange_list {
+    padding-left: 25px;
+    margin-top: -1px;
+    overflow: hidden
+}
+
+.route_arrange_list li {
+    position: relative;
+    margin: 0 15px 15px 0
+}
+
+.route_arrange_list li:first-child:after {
+    display: none
+}
+hahahahahaha
+hahahahahaha
+
+.time_icon_01::before,
+.time_icon_02::before,
+.time_icon_03::before,
+.time_icon_04::before,
+.time_icon_05::before,
+.time_icon_06::before,
+.time_icon_07::before,
+.time_icon_08::before,
+.time_icon_09::before,
+.time_icon_10::before,
+.time_icon_11::before,
+.time_icon_12::before,
+.time_icon_13::before,
+.time_icon_14::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    left: -24px;
+    top: 4px
+}
+
+.time_icon_01::before {
+    background-position: 0 -555px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.time_icon_07::before {
+    background-position: -90px -555px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.route_arrange_list p {
+    overflow: hidden
+}
+
+.route_arrange_list p img {
+    width: 115px;
+    height: 64px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+@media screen and (min-width:360px) {
+    .route_arrange_list p img {
+        width: 133px;
+        height: 75px;
+        margin-right: 12px
+    }
+}
+
+@media screen and (min-width:375px) {
+    .route_arrange_list p img {
+        width: 140px;
+        height: 79px;
+        margin-right: 12px
+    }
+}
+
+@media screen and (min-width:414px) {
+    .route_arrange_list p img {
+        width: 158px;
+        height: 89px;
+        margin-right: 14px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .route_arrange_list p img {
+        width: 200px;
+        height: 112px;
+        margin-right: 20px
+    }
+    .youxue_tour_list a {
+        width: 50%;
+        float: left;
+        margin-bottom: 10px
+    }
+    .youxue_tour_list a:nth-of-type(1) {
+        width: 49%;
+        margin-right: 1%
+    }
+    .youxue_tour_text p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        height: 42px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.abc_down,
+.abc_up {
+    margin-bottom: 12px;
+    text-align: center;
+    color: #009fde
+}
+
+.abc_down:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_product_summary {
+    margin: 10px;
+    padding: 0 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px #ccc
+}
+hahahahahaha
+
+.detail_product_summary li {
+    position: relative;
+    padding: 11px 0;
+    line-height: 16px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_summary_list dd:only-child,
+.detail_summary_list dd:nth-of-type(2) {
+    padding-right: 0
+}
+hahahahahaha
+hahahahahaha
+
+.detail_plane_nostop,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.notice_box .abc_cost_tab .current span:after,
+.notice_box .abc_cost_tab .current span:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #e5e5e5;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    left: 50%;
+    bottom: -5px;
+    margin-left: -5px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.profile_info {
+    padding: 14px 15px;
+    background-color: #fff;
+    position: relative
+}
+
+.profile_info::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e2e2e2;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 top;
+    -ms-transform-origin: 0 top;
+    transform-origin: 0 top
+}
+
+.profile_info:first-of-type::before {
+    display: none
+}
+hahahahahaha
+hahahahahaha
+
+.profile_info dd {
+    display: table-cell;
+    vertical-align: middle
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.profile_info .pm_list li {
+    font-size: 14px;
+    padding-left: 14px;
+    position: relative;
+    margin-top: 6px
+}
+
+.profile_info .pm_list li:before {
+    content: "";
+    height: 3px;
+    width: 3px;
+    background-color: #333;
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    border-radius: 50%
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_travel_num span,
+.detail_travel_num em {
+    position: relative;
+    padding-left: 18px;
+    display: inline-block
+}
+hahahahahaha
+
+.detail_travel_num span:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_mod_hz .mod_hd span:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media(max-width:360px) {
+    .six_slogo {
+        padding-left: 65px;
+        margin-left: 10px
+    }
+    .six_slogo:before {
+        left: 0
+    }
+}
+
+.detail_bottom .detail_collect:before,
+.detail_bottom .detail_contrast:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_bottom .detail_collect,
+.detail_bottom .detail_contrast,
+.detail_bottom .detail_phone {
+    width: 60px;
+    font-size: 10px;
+    color: #666
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.mask_img_loop .serial_number .close:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.mask_detail_line h3,
+.mask_detail_line h3 em {
+    font: normal 14px/18px Arial, "Lucida Grande", Verdana, "Microsoft YaHei", hei
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_hotel_facility dd:before,
+.hotel_grade h3:before,
+.hotel_traffic h3:before {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_detail_hotel.png?20150605.png);
+    background-repeat: no-repeat;
+    background-size: 68px auto
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_hotel_info,hahahahahaha
+hahahahahaha
+
+.detail_hotel_name,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_hotel_list .hotel_grade,
+.detail_hotel_list .hotel_traffic {
+    padding-left: 26px
+}
+
+.hotel_grade h3:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_hotel_list .hotel_detail,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.recommend_detail_box li,hahahahahaha
+
+.recommend_detail_box li:before,
+.recommend_detail_box .recommend_fold:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e2e2e2;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 top;
+    -ms-transform-origin: 0 top;
+    transform-origin: 0 top
+}
+
+.recommend_detail_box .recommend_item,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.recommend_detail_box .recommend_fold,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.recommend_detail_box .arrow_down:after,
+.recommend_detail_box .arrow_up:after,
+.booking_notice_detail .arrow_down:after,
+.booking_notice_detail .arrow_up:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 5px solid #999;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    right: 17px;
+    top: 18px
+}
+
+.recommend_detail_box .arrow_up:after,
+.booking_notice_detail .arrow_up:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.deadline_list td:first-child:after {
+    content: "|";
+    margin-left: 12px;
+    color: #ddd;
+    font-size: 12px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.notice_renege table td,hahahahahaha
+hahahahahaha
+
+.notice_renege table td:first-child,
+.notice_renege table th:first-child {
+    width: 108px;
+    text-align: left;
+    padding-left: 30px
+}
+
+.visa_mod_box:before,
+.visa_mod_box:after,
+.visa_arrows_list li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e2e2e2;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 top;
+    -ms-transform-origin: 0 top;
+    transform-origin: 0 top
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.visa_detail_box h3:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.visa_agency_down,
+.visa_agency_up {
+    text-align: center;
+    line-height: 40px;
+    color: #666;
+    margin: 0 10px;
+    border-top: 1px dashed #ccc
+}
+
+.visa_agency_down:after,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.btn_last,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.content_list .other .wifi:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes dothabottomcheck {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 9px
+    }
+}
+
+@-ms-keyframes dothabottomcheck {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 9px
+    }
+}
+
+@keyframes dothabottomcheck {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 9px
+    }
+}
+
+@-webkit-keyframes dothatopcheck {
+    0% {
+        height: 0
+    }
+    50% {
+        height: 0
+    }
+    100% {
+        height: 18px
+    }
+}
+
+@-ms-keyframes dothatopcheck {
+    0% {
+        height: 0
+    }
+    50% {
+        height: 0
+    }
+    100% {
+        height: 18px
+    }
+}
+
+@keyframes dothatopcheck {
+    0% {
+        height: 0
+    }
+    50% {
+        height: 0
+    }
+    100% {
+        height: 18px
+    }
+}
+hahahahahaha
+hahahahahaha
+
+.animate_select::before,hahahahahaha
+hahahahahaha
+
+.blue_checkbox::before,
+.blue_checkbox::after {
+    background-color: #fff
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.footprint_date+.hot_list_tab {
+    border-top: 1px solid #e8ebef
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.hot_img .animate_select,
+.all_footprint_delete .animate_select {
+    background-color: #00a1db !important;
+    border: 1px solid #00a1db !important
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.ship_route_table th,
+.ship_route_table td {
+    padding: 5px 5px 5px 0;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.schedule_list+.emotion_tip {
+    margin-top: -5px;
+    padding-bottom: 10px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.comment_product_list .comment_product_icon .wifi,
+.comment_product_list .comment_product_icon .dv,
+.comment_product_list .comment_product_collect:before {
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_list.png?20150529.png);
+    background-repeat: no-repeat;
+    background-size: 110px auto
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.comment_product_list .comment_product_icon .wifi,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.youxue_tour_bq_bg,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.banner_box .img_wrap img,hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+    .tour_ctiys_two span,
+    .tour_wei,
+    .tour_citys li span,
+    .tour_slogan {
+        border-width: 0;
+        border-color: transparent;
+        -webkit-border-image: url(https://pic.c-ctrip.com/h5/visa/border_half.png) 2 stretch
+    }
+    .tour_ctiys_two span,
+    .tour_wei {
+        border-right-width: 1px
+    }
+    .tour_citys li span,
+    .tour_slogan {
+        border-top-width: 1px
+    }
+    .study_tour_list li,
+    .study_tour_list li:nth-child(even):before,
+    .tour_citys li:nth-child(even) span:before {
+        border-width: 0;
+        -webkit-border-image: url(https://pic.c-ctrip.com/h5/visa/border_half.png) 2 stretch;
+        border-image: url(https://pic.c-ctrip.com/h5/visa/border_half.png) 2 stretch
+    }
+    .tour_wei.no_norder {
+        border-right-width: 0
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (min-width:768px) {
+    .study_tour_list li {
+        width: 25%
+    }
+    .study_tour_list li.list_first a {
+        border: 1px solid #d3e0e6;
+        border-left: 0
+    }
+    .study_tour_list li.list_two a {
+        border: 1px solid #d3e0e6;
+        border-left: 0
+    }
+    .study_tour_list li.list_three a {
+        border: 1px solid #d3e0e6;
+        border-left: 0
+    }
+    .study_tour_list li.list_four a {
+        border: 1px solid #d3e0e6;
+        border-left: 0
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.visa_notice_wrap li a::after,
+.visa_notice_wrap li h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    background: #e2e2e2;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 bottom;
+    -ms-transform-origin: 0 bottom;
+    transform-origin: 0 bottom
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.visa_material_inf li,
+.visa_material_inf li:before {
+    border: 0;
+    padding: 0;
+    background: 0
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media screen and (width:320px) {
+    .visa_material_inf .img_material li .img_inf img {
+        width: 125px;
+        height: 82px
+    }
+}
+
+@media screen and (width:360px) {
+    .visa_material_inf .img_material li .img_inf img {
+        width: 145px;
+        height: 95px
+    }
+}
+
+@media screen and (width:375px) {
+    .visa_material_inf .img_material li .img_inf img {
+        width: 152px;
+        height: 100px
+    }
+}
+
+@media screen and (width:412px) {
+    .visa_material_inf .img_material li .img_inf img {
+        width: 171px;
+        height: 112px
+    }
+}
+
+@media screen and (width:414px) {
+    .visa_material_inf .img_material li .img_inf img {
+        width: 171px;
+        height: 112px
+    }
+}
+
+@media screen and (width:768px) {
+    .dext_pic_box .dext_pic {
+        width: 25%
+    }
+}
+
+@media all and (min-device-width:1200px) {
+    .v_contact_input input::-webkit-input-placeholder {
+        line-height: 100%
+    }
+}
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes bodyMove {
+    0% {
+        top: 0
+    }
+    25% {
+        top: 4px
+    }
+    50% {
+        top: 0
+    }
+    75% {
+        top: 4px
+    }
+    100% {
+        top: 0
+    }
+}
+
+@keyframes bodyMove {
+    0% {
+        top: 0
+    }
+    25% {
+        top: 4px
+    }
+    50% {
+        top: 0
+    }
+    75% {
+        top: 4px
+    }
+    100% {
+        top: 0
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@-webkit-keyframes text_loaddot {
+    0% {
+        width: 0
+    }
+    100% {
+        width: 10px
+    }
+}
+
+@keyframes text_loaddot {
+    0% {
+        width: 0
+    }
+    100% {
+        width: 10px
+    }
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.agent_inner:after {
+    content: '';
+    position: absolute;
+    overflow: hidden;
+    width: 8px;
+    height: 13px;
+    background-image: url(https://pic.c-ctrip.com/h5/group_travel/un_detail.png?20160422.png);
+    background-repeat: no-repeat;
+    background-size: 104px auto;
+    background-position: -10px -187px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -7px
+}
+
+.cash_pay,hahahahahaha
+hahahahahaha
+
+.cash_pay dfn,
+.cash_vr dfn {
+    margin: 0 2px
+}
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+hahahahahaha
+
+.detail_mob_faq_mask .online_faq,hahahahahaha
+
+.detail_mob_faq_mask .online_faq:after,
+.detail_mob_faq_mask .contac_mob:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: #009fde 1px solid;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    width: 200%;
+    height: 200%;
+    border-radius: 10px;
+    box-sizing: border-box
+}
+
+.detail_mob_faq_mask .online_faq:before,hahahahahaha
+hahahahahaha
+hahahahahaha
+
+@media(max-width:374px) {
+    .detail_mob_faq_mask .detail_mask_bd {
+        width: 240px
+    }
+    .detail_mob_faq_mask .online_faq,
+    .detail_mob_faq_mask .contac_mob {
+        width: 110px
+    }
+}
