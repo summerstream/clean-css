@@ -25,7 +25,7 @@ lineReader.on('line', function (line) {
   var reg1 = new RegExp('^[.\\w\\- \\[\\=\'\\]\\:>]*,','g');
   if(reg1.test(line)){//end ,
     // console.log('RegExp found! RegExp:'+reg1+'  line:'+line);
-    line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*');
+    line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
     var regTemp = new RegExp('[\\r\\n][\\s\\b]*'+line,'g');
     if(!regTemp.test(contents)){
       console.log('error! regTemp:'+regTemp);
@@ -37,7 +37,7 @@ lineReader.on('line', function (line) {
   // if(line == '.lfTipStrip,'){
   //   console.log();
   // }
-  line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*');
+  line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
 
   //,[\r\n]
   
