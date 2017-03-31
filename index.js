@@ -51,18 +51,20 @@ lineReader.on('line', function (line) {
     return;
   }
   
-  // if(line == '.lfTipStrip,'){
-  //   console.log();
-  // }
+  if(originLine == '.car-index .clu li:before'){
+    console.log();
+    file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
+  }
   // line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
 
   //,[\r\n]
   
-  var reg = new RegExp(',[\\r\\n]' + line);
+  var reg = new RegExp(',[\\r\\n]*' + line,'g');
   // console.log(reg);
   if(reg.test(contents)){//before ,
     // var regTemp = new RegExp('^'+line,'g');
     contents = contents.replace(reg, replacement);
+    file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
     return;
   }
 
