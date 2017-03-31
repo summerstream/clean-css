@@ -49,7 +49,7 @@ lineReader.on('line', function (line) {
     return;
   }
 
-  var reg2 = new RegExp('[\\r\\n]' + line + '[\\s]*{[\\r\\n\\w\\s\\b:\\-%"\\\\;#\\.\'\\(\\),/*+=]*}','g');
+  var reg2 = new RegExp('[\\r\\n]' + line + '[\\s]*{[\\r\\n\\w\\s\\b:\\-%"\\\\;#\\.\'\\(\\),/*+=\!]*}','g');
   if(!reg2.test(contents)){
     console.log('RegExp not found! :'+reg2 +' originLine:'+originLine);
     // lineReader.close();
