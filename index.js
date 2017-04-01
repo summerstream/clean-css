@@ -25,9 +25,9 @@ var lineReader = require('readline').createInterface({
 
 lineReader.on('line', function (line) {
   var originLine = line;
-  if( /\.isdbookingnov \.noticeIcon:before/.test(originLine)){
-    console.log();
-  }
+  // if( /\.isdbookingnov \.noticeIcon:before/.test(originLine)){
+  //   console.log();
+  // }
 
   var reg1 = new RegExp('^[.\\w\\- \\[\\=\'\\]\\:>]*,','g');
   if(reg1.test(line)){//end ,
@@ -52,10 +52,10 @@ lineReader.on('line', function (line) {
     // return;
   }
   
-  if(originLine == '.car-index .clu li:before'){
-    console.log();
-    file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
-  }
+  // if(originLine == '.car-index .clu li:before'){
+  //   console.log();
+  //   file.fs.writeFileSync(path.join(__dirname, outputFile), contents, { encoding: 'utf8' });
+  // }
   // line = line.replace(/\./g,'\\.').replace(/\[/g,'\\[').replace(/\]/g,'\\]').replace(/^ /,'').replace(/[ ]*>[ ]*/g,'[ ]*>[ ]*').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
   
   //',' lies  before
