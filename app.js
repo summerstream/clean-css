@@ -18,6 +18,8 @@ var ast = getAst(inputFile);
 
 var newAst = removeSelectorsFromAst(ast,map);
 
+writeAst(newAst,outputFile);
+
 function array2Map(array){
     var map = {};
     array.forEach(function(key){
@@ -68,4 +70,9 @@ function removeSelectorsFromAst(ast, map) {
         }
     }
     return ast;
+}
+
+function writeAst(ast,filename){
+        var code = css.stringify(ast);
+        file.fs.writeFileSync(path.join(__dirname, filename), code, { encoding: 'utf8' });
 }
