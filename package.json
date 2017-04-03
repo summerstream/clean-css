@@ -9,6 +9,7 @@
   "author": "culnoty",
   "license": "ISC",
   "dependencies": {
+    "css": "^2.2.1",
     "file-package": "^1.0.2",
     "file-system": "^1.2.9"
   }

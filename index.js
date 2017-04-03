@@ -2,6 +2,7 @@ var path = require('path');
 var file = require('file-system');
 var util = require('utils-extend');
 var fs = require('fs');
+var css = require('css');
 
 const outputFile = 'detail2.css';
 const inputFile = 'detail1.css';
@@ -10,6 +11,11 @@ const unused_cssFile = 'unused_detail.txt';
 const replacement = '';
 
 var contents = file.readFileSync(path.join(__dirname, inputFile),{ encoding: 'utf8' });
+
+
+var astObj = css.parse(contents);
+console.log(css.stringify(astObj));
+return;
 
 // console.log(contents);
 contents = removeComments(contents);
