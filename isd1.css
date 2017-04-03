@@ -1330,7 +1330,6 @@ body {
 * isdbookingdetail
 */
 
-@charset "utf-8";
 .heiti-font {
     font: 12px/1 arial, STHeiti, sans-serif;
     color: #333;
@@ -8663,11 +8662,11 @@ article[css-bg].isd-p {
     color: #375067;
 }
 
-.zindex-1: {
+.zindex-1 {
     z-index: 1;
 }
 
-.zindex-999: {
+.zindex-999 {
     z-index: 999;
 }
 

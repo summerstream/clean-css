@@ -4,9 +4,9 @@ var util = require('utils-extend');
 var fs = require('fs');
 var css = require('css');
 
-const outputFile = 'detail2.css';
-const inputFile = 'detail1.css';
-const unused_cssFile = 'unused_detail.txt';
+const outputFile = 'isd2.css';
+const inputFile = 'isd1.css';
+const unused_cssFile = 'unused_css.txt';
 
 const replacement = '';
 
@@ -19,6 +19,10 @@ var ast = getAst(inputFile);
 var newAst = removeSelectorsFromAst(ast,map);
 
 writeAst(newAst,outputFile);
+
+function minifyCss(contents){
+  return contents.replace(/\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+\//g,'');
+}
 
 function array2Map(array){
     var map = {};
@@ -36,7 +40,8 @@ function getRules(filename){
 
 function getAst(filename){
     var content = file.readFileSync(path.join(__dirname, filename),{ encoding: 'utf8' });
-    var ast = css.parse(content);
+    content = minifyCss(content);
+    var ast = css.parse(content,{silent:true});
     return ast;
 }
 
