@@ -15,10 +15,12 @@ var rules = getRules(unused_cssFile);
 var map = array2Map(rules);
 
 var ast = getAst(inputFile);
+var astOther = createEmptyAst();
 
 var newAst = removeSelectorsFromAst(ast,map);
 
 writeAst(newAst,outputFile);
+writeAst(astOther,'test1.css');
 
 function minifyCss(contents){
   return contents.replace(/\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+\//g,'');
@@ -70,6 +72,7 @@ function removeSelectorsFromAst(ast, map) {
                 count1++;
             }
         } else {
+            astOther.stylesheet.rules.push(v);
             rules.splice(i - count1, 1);
             count1++;
         }
@@ -80,4 +83,13 @@ function removeSelectorsFromAst(ast, map) {
 function writeAst(ast,filename){
         var code = css.stringify(ast);
         file.fs.writeFileSync(path.join(__dirname, filename), code, { encoding: 'utf8' });
+}
+
+function createEmptyAst() {
+    return {
+        "type": "stylesheet",
+        "stylesheet": {
+            "rules": []
+        }
+    }
 }
