@@ -16,7 +16,7 @@ body {
 .pp-ul>li>.ispan:before,
 .isd-p .icon,
 .isd-m .icon {
-    background-image: url(//pic.c-ctrip.com/car/ch/h5/common/car3.png);
+    background-image: url(//pic.c-baidu_c.com/car/ch/h5/common/car3.png);
     /*background-image: url(../img/car3.png);*/
     background-repeat: no-repeat;
     background-size: 215px 710px;
@@ -1342,13 +1342,13 @@ body {
 /*订单详情页头部*/
 
 .js_car-call-service {
-    background: url(//pic.c-ctrip.com/carch/h5/biz/service.png) center no-repeat;
+    background: url(//pic.c-baidu_c.com/carch/h5/biz/service.png) center no-repeat;
     background-size: 30px;
     padding: 3px 10px;
 }
 
 .icon-osd-ear-pop {
-    background-image: url(//pic.c-ctrip.com/carch/h5/biz/service.png);
+    background-image: url(//pic.c-baidu_c.com/carch/h5/biz/service.png);
     /*background-image: url(../img/icon_ear.png);*/
     background-repeat: no-repeat;
     background-size: 30px auto;
@@ -5762,7 +5762,7 @@ article[css-bg].isd-p {
 }
 
 .prizeType {
-    background: url('//pic.ctrip.com/car_isd/site/prize.png') no-repeat;
+    background: url('//pic.baidu_c.com/car_isd/site/prize.png') no-repeat;
     width: 24px;
     height: 24px;
     background-size: 70px 20px;
@@ -5895,7 +5895,7 @@ article[css-bg].isd-p {
 
 
 /*.cui-i, .cui-i:before {
-    background: url(//pic.c-ctrip.com/h5/common/cui_img.png);
+    background: url(//pic.c-baidu_c.com/h5/common/cui_img.png);
     background-size: 200px 71px;
 }*/
 
@@ -6015,7 +6015,7 @@ article[css-bg].isd-p {
 }
 
 .icon_diffRetCar.icon1 {
-    background-image: url(//pic.ctrip.com/car_isd/site/icon1.svg);
+    background-image: url(//pic.baidu_c.com/car_isd/site/icon1.svg);
     background-size: 15px 15px;
     width: 15px;
     height: 15px;
@@ -6023,7 +6023,7 @@ article[css-bg].isd-p {
 }
 
 .icon_diffRetCar.icon2 {
-    background-image: url(//pic.ctrip.com/car_isd/site/icon2.svg);
+    background-image: url(//pic.baidu_c.com/car_isd/site/icon2.svg);
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
@@ -8765,7 +8765,7 @@ article[css-bg].isd-p {
     height: 35px;
     border-radius: 40px;
     margin: 0 auto 13px;
-    background: #cccccc url(//pic.ctrip.com/h5/car/inBot.png) no-repeat;
+    background: #cccccc url(//pic.baidu_c.com/h5/car/inBot.png) no-repeat;
     background-size: 35px 140px;
 }
 .carChar .i2{
@@ -12777,7 +12777,7 @@ input#city_keyword {
 }
 
 .autumuaWrap {
-    background: url(//pic.ctrip.com/car_isd/ald/avis_bg.jpg) no-repeat;
+    background: url(//pic.baidu_c.com/car_isd/ald/avis_bg.jpg) no-repeat;
     background-size: cover;
     padding: 14.4266rem 0 0.5333rem;
 }
@@ -12843,7 +12843,7 @@ input#city_keyword {
 .asBtn {
     height: 1.2266rem;
     margin: 0.3733rem auto 0;
-    background: url(//pic.ctrip.com/car_isd/ald/avis_btn.png) no-repeat;
+    background: url(//pic.baidu_c.com/car_isd/ald/avis_btn.png) no-repeat;
     background-size: cover;
 }
 
@@ -13021,7 +13021,7 @@ input#city_keyword {
     width: 2.64rem;
     height: 1.8066rem;
     padding-top: 0.9rem;
-    background: url(//pic.ctrip.com/car_isd/ald/avis_red_new.png) no-repeat;
+    background: url(//pic.baidu_c.com/car_isd/ald/avis_red_new.png) no-repeat;
     background-size: cover;
     text-align: center;
     color: #fff764;

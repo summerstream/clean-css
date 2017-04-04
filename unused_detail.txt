@@ -839,8 +839,8 @@ i.blue_checkbox.animate_select
 .tour_list .tour_info
 .tour_list .tour_info span
 .tour_list .tour_info span:last-child
-.tour_list .tour_info .tour_ctrip:before, .tour_list .tour_info .tour_other:before
-.tour_list .tour_info .tour_ctrip:before
+.tour_list .tour_info .tour_baidu_c:before, .tour_list .tour_info .tour_other:before
+.tour_list .tour_info .tour_baidu_c:before
 .tour_list .tour_info .tour_other:before
 .tour_list .tour_info .tour_point
 .tour_list .tour_info .tour_point strong
@@ -1438,12 +1438,12 @@ to
 .hint_ico_right:before
 .hint_ico_l.hint_ico_right
 .hint_ico_l.hint_ico_right:before
-.uu_ctrip_logo
+.uu_baidu_c_logo
 .uu_seo_ban
 .uu_seo_ban
 .uu_seo_ban .hTitle
 .uu_seo_ban .iTxt
-.uu_seo_ban .uu_ctrip_logo
+.uu_seo_ban .uu_baidu_c_logo
 .uu_seo .uu_main
 .uu_seo .flow1_2
 .base_list
