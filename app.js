@@ -7,8 +7,8 @@ var css = require('css');
 const outputFile = 'isd2.css';
 const inputFile = 'isd1.css';
 const unused_cssFile = 'unused_css.txt';
-const excluded_selectors = ['body','.fl','.fr','.circlePoint','.circlePoint:before','.circlePoint:after','.clearfix','.clearfix:after','.clear:before'];
-const prefix = '[data-view-name="isdselectarea"] ';
+const excluded_selectors = ['body','.fl','.fr','.circlePoint','.circlePoint:before','.circlePoint:after','.clearfix','.clearfix:after','.clear:before','.clear:after','.clear:before'];
+const prefix = '[data-view-name="isd"] ';
 
 const replacement = '';
 
