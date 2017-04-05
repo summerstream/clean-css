@@ -8,6 +8,7 @@ const outputFile = 'isd2.css';
 const inputFile = 'isd1.css';
 const unused_cssFile = 'unused_css.txt';
 const excluded_selectors = ['body'];
+const prefix = '[data-view-name="selectcity"] ';
 
 const replacement = '';
 
@@ -20,7 +21,7 @@ var astOther = createEmptyAst();
 var newAst = removeAstSelectors(ast,rules.concat(excluded_selectors));
 
 //add prefix
-addPrefix(newAst,'[data-view-name="selectcity"] ');
+addPrefix(newAst,prefix);
 
 writeAst(newAst,outputFile);
 writeAst(astOther,'other.css');
