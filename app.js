@@ -7,17 +7,17 @@ var css = require('css');
 const outputFile = 'isd2.css';
 const inputFile = 'isd1.css';
 const unused_cssFile = 'unused_css.txt';
+const excluded_selectors = ['body'];
 
 const replacement = '';
 
 var rules = getRules(unused_cssFile);
-
 // var map = array2Map(rules);
 
 var ast = getAst(inputFile);
 var astOther = createEmptyAst();
 
-var newAst = removeAstSelectors(ast,rules);
+var newAst = removeAstSelectors(ast,rules.concat(excluded_selectors));
 
 //add prefix
 addPrefix(newAst,'[data-view-name="selectcity"] ');
