@@ -19,6 +19,9 @@ var astOther = createEmptyAst();
 
 var newAst = removeSelectorsFromAst(ast,map);
 
+//add prefix
+addPrefix(newAst,'[data-view-name="selectcity"] ');
+
 writeAst(newAst,outputFile);
 writeAst(astOther,'other.css');
 
@@ -103,4 +106,19 @@ function createEmptyAst() {
             "rules": []
         }
     }
+}
+
+function addPrefix(ast,prefix){
+    var rules = ast.stylesheet.rules;
+    // rules.forEach(function(v,k){
+    //     v.selectors.forEach(function(sv,sk){
+    //         sv = prefix + ' ' +sv;
+    //     });
+    // });
+    for(var i =0;i<rules.length;i++){
+        for(var j = 0;j<rules[i].selectors.length;j++){
+            rules[i].selectors[j] = prefix + rules[i].selectors[j];
+        }
+    }
+    return ast;
 }
