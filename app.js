@@ -20,7 +20,7 @@ var astOther = createEmptyAst();
 var newAst = removeSelectorsFromAst(ast,map);
 
 writeAst(newAst,outputFile);
-writeAst(astOther,'test1.css');
+writeAst(astOther,'other.css');
 
 function minifyCss(contents){
   return contents.replace(/\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+\//g,'');
