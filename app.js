@@ -36,8 +36,19 @@ function array2Map(array){
 
 function getRules(filename){
     var content = file.readFileSync(path.join(__dirname, filename),{ encoding: 'utf8' });
+    content = removeBeginSpace(content);
+    content = fixAttrCSS(content);
+    file.fs.writeFileSync(path.join(__dirname, 'fixedAttrCSS.txt'), content, { encoding: 'utf8' });
     var rules = content.split(/[\s\r\n]*[\r\n\,]+[\s\r\n]*/);
     return rules;
+}
+
+function removeBeginSpace(s){
+    return s.replace(/^ +/gm,'');
+}
+
+function fixAttrCSS(s){
+    return s.replace(/^([\w\~\=\-\'\"\|\^\$\*]*])/gm,'[$1');
 }
 
 function getAst(filename){
