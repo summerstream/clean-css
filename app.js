@@ -12,12 +12,12 @@ const replacement = '';
 
 var rules = getRules(unused_cssFile);
 
-var map = array2Map(rules);
+// var map = array2Map(rules);
 
 var ast = getAst(inputFile);
 var astOther = createEmptyAst();
 
-var newAst = removeSelectorsFromAst(ast,map);
+var newAst = removeAstSelectors(ast,rules);
 
 //add prefix
 addPrefix(newAst,'[data-view-name="selectcity"] ');
@@ -61,7 +61,8 @@ function getAst(filename){
     return ast;
 }
 
-function removeSelectorsFromAst(ast, map) {
+function removeAstSelectors(ast, list) {
+    var map = array2Map(list);
     var rules = ast.stylesheet.rules;
     var count1 = 0;
     var newI = 0;
